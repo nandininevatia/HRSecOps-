@@ -6,5 +6,18 @@
   "compatibility_date": "2024-12-01",
   "observability": {
     "enabled": true
-  }
+  },
+
+  // The free Cloudflare D1 database that stores all joiners.
+  // "database_id" is filled in once, after you create the database in your
+  // Cloudflare account (see README - "Setting up the database"). Until then the
+  // app still runs locally using a local copy of the database.
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "onboarding-tracker-db",
+      "database_id": "REPLACE_WITH_YOUR_DATABASE_ID",
+      "migrations_dir": "migrations"
+    }
+  ]
 }

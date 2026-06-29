@@ -1,14 +1,12 @@
 // ---------------------------------------------------------------------------
-// This file holds two things:
-//   1. STAGES  - the ordered steps of your onboarding journey (from your flowchart)
-//   2. JOINERS - demo new-joiner records so the dashboard has something to show
+// Static onboarding configuration + pure helper logic (no database here).
 //
-// In the next slice we move JOINERS into a real database. For now this lets you
-// see and feel the dashboard immediately. Nothing here costs money.
+//   STAGES          - the ordered steps of your onboarding journey
+//   SCHEDULE_RULES  - key dates auto-calculated from the joining date
+//   helper functions for status and date maths
 // ---------------------------------------------------------------------------
 
 // The ordered onboarding journey. Each joiner moves through these in order.
-// "stageIndex" on a joiner points at where they currently are in this list.
 export const STAGES = [
   { key: "offer_accepted", label: "Offer Accepted", owner: "TA" },
   { key: "details_shared", label: "Details Shared to HR", owner: "TA → HR" },
@@ -22,6 +20,8 @@ export const STAGES = [
   { key: "onboarded", label: "Onboarded", owner: "HR" },
 ] as const;
 
+export const LAST_STAGE = STAGES.length - 1;
+
 export type JoinerType = "immediate" | "non_immediate";
 
 export type Joiner = {
@@ -31,56 +31,47 @@ export type Joiner = {
   department: string;
   joinerType: JoinerType;
   joiningDate: string; // YYYY-MM-DD
-  stageIndex: number; // points into STAGES above
-  blocked?: string; // if set, this joiner is stuck; text explains why
+  stageIndex: number;
+  blocked: string | null;
+  createdAt: string;
 };
 
-// Demo data only - realistic examples at different points in the journey.
-export const JOINERS: Joiner[] = [
-  {
-    id: "j1",
-    name: "Aarav Sharma",
-    role: "Backend Engineer",
-    department: "Engineering",
-    joinerType: "non_immediate",
-    joiningDate: "2026-07-15",
-    stageIndex: 3, // NDA
-  },
-  {
-    id: "j2",
-    name: "Priya Menon",
-    role: "Product Designer",
-    department: "Design",
-    joinerType: "non_immediate",
-    joiningDate: "2026-07-06",
-    stageIndex: 6, // Onboarding ticket raised
-  },
-  {
-    id: "j3",
-    name: "Rahul Verma",
-    role: "Sales Executive",
-    department: "Sales",
-    joinerType: "immediate",
-    joiningDate: "2026-06-30",
-    stageIndex: 7, // Day 1 setup
-    blocked: "Laptop not yet allocated by IT",
-  },
-  {
-    id: "j4",
-    name: "Sneha Iyer",
-    role: "HR Associate",
-    department: "Human Resources",
-    joinerType: "non_immediate",
-    joiningDate: "2026-06-22",
-    stageIndex: 9, // Onboarded
-  },
-  {
-    id: "j5",
-    name: "Mohit Gupta",
-    role: "Data Analyst",
-    department: "Analytics",
-    joinerType: "non_immediate",
-    joiningDate: "2026-08-01",
-    stageIndex: 1, // Details shared
-  },
-];
+// "Key dates" auto-calculated relative to the joining date.
+// offsetDays is counted from the joining date: negative = before, 0 = day one.
+export const SCHEDULE_RULES = [
+  { label: "Pre-onboarding email sent", offsetDays: -14 },
+  { label: "Joining confirmed by candidate", offsetDays: -10 },
+  { label: "Onboarding ticket raised (email + laptop + groups)", offsetDays: -7 },
+  { label: "Day 1 setup complete", offsetDays: 0 },
+  { label: "Manager induction", offsetDays: 0 },
+  { label: "Training (Security + POSH) complete", offsetDays: 5 },
+] as const;
+
+// --- Date helpers ------------------------------------------------------------
+
+export function addDays(iso: string, days: number): string {
+  const d = new Date(iso + "T00:00:00Z");
+  d.setUTCDate(d.getUTCDate() + days);
+  return d.toISOString().slice(0, 10);
+}
+
+export function daysBetween(fromISO: string, to: Date): number {
+  const from = new Date(fromISO + "T00:00:00Z");
+  const ms = from.getTime() - Date.UTC(to.getUTCFullYear(), to.getUTCMonth(), to.getUTCDate());
+  return Math.round(ms / (1000 * 60 * 60 * 24));
+}
+
+export type Status = { label: string; tone: "good" | "warn" | "bad" | "done" };
+
+export function statusFor(j: Joiner, today: Date): Status {
+  if (j.stageIndex >= LAST_STAGE) return { label: "Onboarded", tone: "done" };
+  if (j.blocked) return { label: "Blocked", tone: "bad" };
+  const days = daysBetween(j.joiningDate, today);
+  if (days < 0) return { label: "Overdue", tone: "bad" };
+  if (days <= 7) return { label: "Joining soon", tone: "warn" };
+  return { label: "On track", tone: "good" };
+}
+
+export function computeSchedule(joiningDate: string) {
+  return SCHEDULE_RULES.map((r) => ({ label: r.label, date: addDays(joiningDate, r.offsetDays) }));
+}
