@@ -5,6 +5,30 @@
 
 import { LAST_STAGE, type Joiner, type JoinerType } from "./data";
 
+// Make sure the joiners table exists. This runs the same "CREATE TABLE" as the
+// migration file, but automatically, so a freshly created database just works
+// without any manual migration step. It is safe to run repeatedly (IF NOT
+// EXISTS) and we only actually run it once per running copy of the app.
+let schemaReady = false;
+export async function ensureSchema(db: D1Database): Promise<void> {
+  if (schemaReady) return;
+  await db.batch([
+    db.prepare(`CREATE TABLE IF NOT EXISTS joiners (
+      id TEXT PRIMARY KEY,
+      name TEXT NOT NULL,
+      role TEXT NOT NULL DEFAULT '',
+      department TEXT NOT NULL DEFAULT '',
+      joiner_type TEXT NOT NULL DEFAULT 'non_immediate',
+      joining_date TEXT NOT NULL,
+      stage_index INTEGER NOT NULL DEFAULT 0,
+      blocked TEXT,
+      created_at TEXT NOT NULL
+    )`),
+    db.prepare(`CREATE INDEX IF NOT EXISTS idx_joiners_joining_date ON joiners (joining_date)`),
+  ]);
+  schemaReady = true;
+}
+
 // What one row looks like coming back from the database (snake_case columns).
 type Row = {
   id: string;

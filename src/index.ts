@@ -17,6 +17,7 @@ import {
   type JoinerType,
 } from "./data";
 import {
+  ensureSchema,
   listJoiners,
   getJoiner,
   createJoiner,
@@ -28,6 +29,12 @@ import {
 type Env = { DB: D1Database };
 
 const app = new Hono<{ Bindings: Env }>();
+
+// Before handling any page, make sure the database table exists.
+app.use("*", async (c, next) => {
+  if (c.env.DB) await ensureSchema(c.env.DB);
+  await next();
+});
 
 // --- Shared bits -------------------------------------------------------------
 

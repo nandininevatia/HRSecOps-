@@ -1,7 +1,8 @@
 {
   // This file tells Cloudflare how to run the app. Plain-language notes are in the README.
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "onboarding-tracker",
+  // Matches the Worker/project name in your Cloudflare account ("hrsecops").
+  "name": "hrsecops",
   "main": "src/index.ts",
   "compatibility_date": "2024-12-01",
   "observability": {
