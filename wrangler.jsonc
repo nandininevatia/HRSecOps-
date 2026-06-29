@@ -17,7 +17,7 @@
     {
       "binding": "DB",
       "database_name": "onboarding-tracker-db",
-      "database_id": "REPLACE_WITH_YOUR_DATABASE_ID",
+      "database_id": "a11a987e-1f81-4341-82ae-b6988c7c7733",
       "migrations_dir": "migrations"
     }
   ]
