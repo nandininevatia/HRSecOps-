@@ -3,7 +3,48 @@
 // the rest of the app never has to know the database details.
 // ---------------------------------------------------------------------------
 
-import { LAST_STAGE, type Joiner, type JoinerType } from "./data";
+import { LAST_STAGE, type Joiner, type JoinerType, type Role } from "./data";
+
+export type User = { email: string; name: string; role: Role; createdAt: string };
+
+type UserRow = { email: string; name: string; role: string; created_at: string };
+
+function rowToUser(r: UserRow): User {
+  return { email: r.email, name: r.name, role: r.role as Role, createdAt: r.created_at };
+}
+
+export async function countUsers(db: D1Database): Promise<number> {
+  const row = await db.prepare("SELECT COUNT(*) AS n FROM users").first<{ n: number }>();
+  return row?.n ?? 0;
+}
+
+export async function listUsers(db: D1Database): Promise<User[]> {
+  const { results } = await db.prepare("SELECT * FROM users ORDER BY name, email").all<UserRow>();
+  return (results ?? []).map(rowToUser);
+}
+
+export async function getUser(db: D1Database, email: string): Promise<User | null> {
+  const row = await db.prepare("SELECT * FROM users WHERE email = ?").bind(email).first<UserRow>();
+  return row ? rowToUser(row) : null;
+}
+
+export async function upsertUser(
+  db: D1Database,
+  user: { email: string; name: string; role: Role },
+): Promise<void> {
+  const createdAt = new Date().toISOString();
+  await db
+    .prepare(
+      `INSERT INTO users (email, name, role, created_at) VALUES (?, ?, ?, ?)
+       ON CONFLICT(email) DO UPDATE SET name = excluded.name, role = excluded.role`,
+    )
+    .bind(user.email, user.name, user.role, createdAt)
+    .run();
+}
+
+export async function deleteUser(db: D1Database, email: string): Promise<void> {
+  await db.prepare("DELETE FROM users WHERE email = ?").bind(email).run();
+}
 
 // Make sure the joiners table exists. This runs the same "CREATE TABLE" as the
 // migration file, but automatically, so a freshly created database just works
@@ -25,6 +66,12 @@ export async function ensureSchema(db: D1Database): Promise<void> {
       created_at TEXT NOT NULL
     )`),
     db.prepare(`CREATE INDEX IF NOT EXISTS idx_joiners_joining_date ON joiners (joining_date)`),
+    db.prepare(`CREATE TABLE IF NOT EXISTS users (
+      email TEXT PRIMARY KEY,
+      name TEXT NOT NULL DEFAULT '',
+      role TEXT NOT NULL DEFAULT 'viewer',
+      created_at TEXT NOT NULL
+    )`),
   ]);
   schemaReady = true;
 }
