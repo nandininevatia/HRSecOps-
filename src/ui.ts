@@ -169,23 +169,19 @@ export function statusPill(label: string, tone: string): string {
 }
 
 // ---- Charts (inline SVG) ---------------------------------------------------
-export function barChart(data: { label: string; value: number }[], opts: { color?: string; height?: number } = {}): string {
+// Horizontal bars (HTML) - avoids SVG label-overlap/scaling problems entirely.
+export function barChart(data: { label: string; value: number }[], opts: { color?: string } = {}): string {
   const color = opts.color ?? THEME.brand;
-  const h = opts.height ?? 180;
   const max = Math.max(1, ...data.map((d) => d.value));
-  const bw = 100 / Math.max(1, data.length);
-  const bars = data
-    .map((d, i) => {
-      const bh = (d.value / max) * (h - 30);
-      const x = i * bw + bw * 0.15;
-      const w = bw * 0.7;
-      const y = h - 22 - bh;
-      return `<rect x="${x}%" y="${y}" width="${w}%" height="${bh}" rx="4" fill="${color}"></rect>
-        <text x="${x + w / 2}%" y="${h - 6}" font-size="10" fill="#667085" text-anchor="middle">${esc(d.label)}</text>
-        <text x="${x + w / 2}%" y="${y - 4}" font-size="10" font-weight="700" fill="#0B1F3A" text-anchor="middle">${d.value}</text>`;
+  return `<div>${data
+    .map((d) => {
+      const pct = Math.round((d.value / max) * 100);
+      return `<div style="display:flex;align-items:center;gap:10px;margin:7px 0">
+        <div style="width:38%;font-size:12.5px;font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="${esc(d.label)}">${esc(d.label)}</div>
+        <div class="bar" style="flex:1;height:13px"><span style="width:${pct}%;background:${color}"></span></div>
+        <div style="width:26px;text-align:right;font-size:12.5px;font-weight:700">${d.value}</div></div>`;
     })
-    .join("");
-  return `<svg viewBox="0 0 100 ${h}" preserveAspectRatio="none" width="100%" height="${h}" style="overflow:visible">${bars}</svg>`;
+    .join("")}</div>`;
 }
 
 export function funnelChart(data: { label: string; value: number }[]): string {
