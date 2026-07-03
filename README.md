@@ -1,79 +1,79 @@
-# Onboarding Tracker
+# GoComet Onboarding & Facilitators Platform
 
-A simple, free web app that tracks every new joiner's onboarding journey — from
-the moment they accept the offer until they are fully onboarded.
+A free, self-hosted platform that gives **IT, HR, and TA** teams a shared way to
+run and monitor employee onboarding — with **read-only dashboards for
+Management** and a single **Admin**. Built on Cloudflare's free tier.
 
-This is **Phase 0–1**: a working dashboard with demo data. It runs entirely on
-free services (Cloudflare + GitHub), so there is nothing to pay for.
-
----
-
-## What it does right now
-
-- Shows a **dashboard** of all new joiners.
-- For each joiner, shows their **current onboarding stage**, a **progress bar**,
-  the **owning team**, and a **status** (On track / Joining soon / Blocked /
-  Overdue / Onboarded).
-- Shows summary counts at the top (total, in progress, blocked, onboarded).
-
-The list of joiners is **demo data** for now (in `src/data.ts`). The next step
-replaces it with a real database so you can add live joiners.
+See **[docs/PRD.md](docs/PRD.md)** for the full product spec and
+**[docs/BUILD_PROMPT.md](docs/BUILD_PROMPT.md)** for the build brief.
 
 ---
 
-## The onboarding stages (from the company flowchart)
+## What it does
 
-1. Offer Accepted (TA)
-2. Details Shared to HR (TA → HR)
-3. Post-Offer Follow-up (HR)
-4. NDA (HR)
-5. Pre-onboarding Email (HR)
-6. Joining Confirmed (HR)
-7. Onboarding Ticket Raised (HR)
-8. Day 1 Setup — IT / Admin
-9. Manager Induction (Manager)
-10. Onboarded (HR)
-
----
-
-## How it's built (plain language)
-
-- **Cloudflare Workers** — where the app lives and runs (free).
-- **Hono** — a small toolkit for building the web pages.
-- **GitHub** — stores the code (free).
-- No database yet — that comes next, using **Cloudflare D1** (also free).
+- **Two interfaces:** an input backend (team-scoped) and monitoring dashboards.
+- **Freshservice-style intake** + **CSV import** from the sheets teams already keep.
+- **Full onboarding journey** modelled from the TA/HR/IT notes, incl. the Day-1
+  automation bundle (email, JumpCloud, Slack, Google DL, Keka) and manager induction.
+- **Analytics:** offered→onboarded funnel, back-out % and back-out by stage,
+  offered/onboarded/offboarded, average cycle times, tasks-on-time, live blockers —
+  all filterable by department, employment type, case type, status, and date.
+- **Alerts & triggers:** blocker alerts, overdue/SLA alerts, and a configurable
+  notification matrix (pre-seeded with the recipient lists from the notes).
+- **Scheduled reports:** daily pipeline digest & weekly funnel summary via
+  Cloudflare Cron, with a GitHub Actions fallback.
+- **Roles:** Admin, Management (read-only), TA, HR, IT, Hiring Manager, Viewer.
+- **Audit trail** + **notifications/integrations log** for full traceability.
+- **Integration-ready:** pluggable adapters for Freshservice, Keka, JumpCloud,
+  Slack, Google Workspace, Ongrid (feature-flagged; simulated + logged until
+  live API keys are added — the flow never breaks).
 
 ---
 
-## Running it on your own computer (optional)
+## How it's built (all free tiers)
 
-You do **not** need to do this — Cloudflare can run it for you. But if you want
-to see it locally:
+- **Cloudflare Workers** (app) · **Hono** (framework) · **Cloudflare D1** (database)
+- **Cloudflare Access** (company login, ≤50 users) · **Cloudflare Cron** (schedules)
+- **Resend** (email, optional) · **GitHub Actions** (deploy + cron fallback)
+
+The database schema is **auto-created on first run** — no manual migration step.
+
+---
+
+## Run locally
 
 ```bash
-npm install      # download the building blocks (one time)
-npm run dev       # start the app on your computer
+npm install
+# simulate a logged-in user locally (production uses Cloudflare Access):
+echo 'DEV_EMAIL="you@gocomet.com"' > .dev.vars
+npm run dev
 ```
 
-Then open the address it prints (usually http://localhost:8787).
+Open the printed URL (usually http://localhost:8787). The first user becomes Admin.
+
+## Go live
+
+1. Cloudflare **Workers & Pages → Connect to Git** → this repo → deploy command `npx wrangler deploy`.
+2. Ensure the free **D1 database** ID is set in `wrangler.jsonc`.
+3. Turn on **Cloudflare Access** (Zero Trust) in front of the app for login.
+4. (Optional) Add `RESEND_API_KEY` + `MAIL_FROM` for real emails, and `CRON_SECRET`
+   to protect the `/cron` endpoint.
 
 ---
 
-## Publishing it live (free)
+## Configuration (Admin → Settings)
 
-The easiest way: in the Cloudflare dashboard, go to **Workers & Pages →
-Create → Connect to Git**, pick this repository, and Cloudflare will publish it
-automatically every time the code changes. Your app will get a free address
-like `onboarding-tracker.workers.dev`.
-
----
+- **Notification matrix** — who is notified for each event.
+- **Integrations** — enable/disable each external system.
+- **Scheduled reports** — cadence + recipients.
 
 ## Roadmap
 
-- [x] Phase 0–1: Dashboard with demo data
-- [ ] Phase 2: Real database (add/edit live joiners) + auto-calculated due dates
-- [ ] Phase 3: Logins & team roles (Cloudflare Access, free for up to 50 users)
-- [ ] Phase 4: Email reminders & overdue alerts (daily "alarm clock")
-- [ ] Phase 5: Per-joiner timeline & full audit trail
-- [ ] Phase 6: Scheduled reports for leadership
-- [ ] Phase 7: Real integrations (Keka, Slack, Google, JumpCloud, Ongrid)
+- [x] Data model, Freshservice-parity intake, CSV import
+- [x] Team cuts, task checklists, blockers, back-out, offboard
+- [x] Analytics dashboards + filters + Management overview (GoComet theme)
+- [x] Alerts/triggers (blocker + SLA) + notification matrix
+- [x] Scheduled reports (Cron + Actions fallback)
+- [x] Integration adapter layer (simulated + logged)
+- [ ] Live integration API wiring (Freshservice/Slack first)
+- [ ] Full offboarding flow

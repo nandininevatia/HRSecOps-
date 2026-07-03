@@ -9,6 +9,11 @@
     "enabled": true
   },
 
+  // Daily "alarm clock": runs scheduled reports + SLA/overdue checks at 09:00 UTC.
+  "triggers": {
+    "crons": ["0 9 * * *"]
+  },
+
   // The free Cloudflare D1 database that stores all joiners.
   // "database_id" is filled in once, after you create the database in your
   // Cloudflare account (see README - "Setting up the database"). Until then the
