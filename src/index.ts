@@ -14,37 +14,64 @@ import {
   type Candidate, type Task,
 } from "./data";
 import * as db from "./db";
-import { identityEmail, resolveUser } from "./auth";
+import { currentEmail, resolveUser, googleConfigured, beginGoogleLogin, handleGoogleCallback, logout, allowedDomain } from "./auth";
 import * as A from "./analytics";
 import { notify, runDay1Automation, dispatchIntegration, integrationState, runDueSchedules, buildReport } from "./services";
 import {
   layout, esc, stat, chip, statusPill, barChart, funnelChart, donut,
 } from "./ui";
 
-type Env = { DB: D1Database; DEV_EMAIL?: string; RESEND_API_KEY?: string; MAIL_FROM?: string; CRON_SECRET?: string };
+type Env = {
+  DB: D1Database; DEV_EMAIL?: string; RESEND_API_KEY?: string; MAIL_FROM?: string; CRON_SECRET?: string;
+  AUTH_SECRET?: string; GOOGLE_CLIENT_ID?: string; GOOGLE_CLIENT_SECRET?: string; ALLOWED_DOMAIN?: string;
+};
 type Vars = { user: db.User };
 const app = new Hono<{ Bindings: Env; Variables: Vars }>();
 
 const now = () => new Date();
 
+const PUBLIC_PATHS = new Set(["/health", "/cron", "/login", "/auth/google", "/auth/callback", "/logout"]);
+
 // ---- Middleware: schema + identity (fail closed) --------------------------
 app.use("*", async (c, next) => {
-  const p = c.req.path;
-  if (p === "/health" || p === "/cron") { if (c.env.DB) await db.ensureSchema(c.env.DB); return next(); }
+  if (c.env.DB) await db.ensureSchema(c.env.DB);
+  if (PUBLIC_PATHS.has(c.req.path)) return next();
   if (!c.env.DB) return c.text("Database not configured", 500);
-  await db.ensureSchema(c.env.DB);
-  const email = identityEmail(c);
-  if (!email) return c.html(signInPage(), 401);
+  const email = await currentEmail(c);
+  if (!email) return c.redirect("/login");
   c.set("user", await resolveUser(c.env.DB, email));
   await next();
 });
 
-function signInPage(): string {
-  return layout({ title: "Sign-in required", body:
-    `<h1 style="margin-top:0">Sign-in required</h1>
-     <div class="banner">This app must be opened through your company login (Cloudflare Access).
-     If you see this, sign-in isn't configured yet or your session expired. Contact your administrator.</div>` });
+// ---- Login / logout --------------------------------------------------------
+function loginPage(configured: boolean, domain: string, error = ""): string {
+  const inner = configured
+    ? `<a class="btn" href="/auth/google" style="display:inline-block;padding:12px 20px">Sign in with Google</a>
+       <p class="muted" style="margin-top:14px">Use your <b>@${esc(domain)}</b> account.</p>`
+    : `<div class="banner">Google sign-in isn't configured yet. An admin needs to set
+       <code>GOOGLE_CLIENT_ID</code>, <code>GOOGLE_CLIENT_SECRET</code>, and <code>AUTH_SECRET</code>
+       in the Worker's settings (Cloudflare → hrsecops → Settings → Variables).</div>`;
+  return layout({ title: "Sign in", body:
+    `<div style="text-align:center;padding:20px 0">
+       <h1 style="margin:0 0 6px">GoComet Onboarding</h1>
+       <p class="muted" style="margin:0 0 22px">Facilitators platform — sign in to continue</p>
+       ${error ? `<div class="banner bad">${esc(error)}</div>` : ""}
+       ${inner}
+     </div>` });
 }
+
+app.get("/login", (c) => c.html(loginPage(googleConfigured(c.env), allowedDomain(c.env), c.req.query("error") || "")));
+app.get("/auth/google", (c) => {
+  if (!googleConfigured(c.env)) return c.redirect("/login");
+  return beginGoogleLogin(c);
+});
+app.get("/auth/callback", async (c) => {
+  if (!googleConfigured(c.env)) return c.redirect("/login");
+  const r = await handleGoogleCallback(c);
+  if (!r.ok) return c.redirect(`/login?error=${encodeURIComponent(r.error)}`);
+  return c.redirect("/");
+});
+app.get("/logout", (c) => { logout(c); return c.redirect("/login"); });
 const forbidden = (u: db.User) => layout({ title: "Not allowed", user: u, active: "",
   body: `<div class="banner bad">Your role (${ROLE_LABELS[u.role]}) can't perform that action.</div><a href="/">← Dashboard</a>` });
 

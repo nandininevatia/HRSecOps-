@@ -150,7 +150,8 @@ export function layout(opts: {
   <nav class="side"><div class="logo">Go<span>Comet</span> · Onboarding</div>${sideHtml}</nav>
   <div class="main">
     <div class="top"><h1>${esc(title)}</h1>
-      <div class="who">${esc(user.name || user.email)}<span class="role">${ROLE_LABELS[user.role]}</span></div></div>
+      <div class="who">${esc(user.name || user.email)}<span class="role">${ROLE_LABELS[user.role]}</span>
+        <a href="/logout" style="margin-left:14px;font-weight:600">Sign out</a></div></div>
     <div class="wrap">${body}</div>
   </div></div>` : `<div class="wrap" style="max-width:640px;margin:40px auto">${body}</div>`}
 </body></html>`;
