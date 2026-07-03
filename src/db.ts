@@ -171,6 +171,15 @@ export async function deleteCandidate(db: D1Database, id: string): Promise<void>
   ]);
 }
 
+export async function clearAllCandidates(db: D1Database): Promise<void> {
+  await db.batch([db.prepare(`DELETE FROM tasks`), db.prepare(`DELETE FROM candidates`)]);
+}
+
+export async function countCandidates(db: D1Database): Promise<number> {
+  const r = await db.prepare(`SELECT COUNT(*) AS n FROM candidates`).first<{ n: number }>();
+  return r?.n ?? 0;
+}
+
 // ---- Users ----------------------------------------------------------------
 export type User = { email: string; name: string; role: Role; createdAt: string };
 const rowToUser = (r: any): User => ({ email: r.email, name: r.name ?? "", role: (r.role ?? "viewer") as Role, createdAt: r.created_at });

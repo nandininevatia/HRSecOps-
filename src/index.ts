@@ -588,6 +588,13 @@ app.get("/settings", async (c) => {
         </div>
         <button class="btn">Add schedule</button></form>
       <p class="muted" style="font-size:12px;margin-top:10px">Runs are triggered by Cloudflare Cron (and a GitHub Actions fallback) hitting <code>/cron</code>.</p>
+    </div></div>
+
+    <div class="panel"><h2>Sample data (for preview)</h2><div class="body">
+      <p class="muted" style="margin-top:0">Populate the app with a handful of demo candidates to explore the dashboards,
+      or clear everything to start fresh. Use this only while previewing — delete before entering real employee data.</p>
+      <form class="inline" method="post" action="/settings/seed-demo"><button class="btn">Load sample data</button></form>
+      <form class="inline" method="post" action="/settings/clear-candidates" onsubmit="return confirm('Delete ALL candidates? This cannot be undone.')"><button class="btn danger">Delete all candidates</button></form>
     </div></div>`;
   return c.html(layout({ title: "Settings", user, active: "/settings", body }));
 });
@@ -628,6 +635,45 @@ app.post("/settings/schedule", async (c) => {
 app.post("/settings/schedule/delete", async (c) => {
   const user = c.get("user"); if (!canConfigure(user.role)) return c.html(forbidden(user), 403);
   await db.deleteSchedule(c.env.DB, String((await c.req.formData()).get("id") ?? ""));
+  return c.redirect("/settings");
+});
+
+// ---- Sample data (preview) ----
+async function seedDemo(env: Env, actor: string): Promise<void> {
+  const mk = (name: string, dept: string, desig: string, emp: EmploymentType, ct: CaseType, date: string, mgr: string) =>
+    db.createCandidate(env.DB, {
+      name, phone: "", personalEmail: "", department: dept, designation: desig, costCenter: "",
+      employmentType: emp, reportingManager: mgr, assetRequired: true, caseType: ct,
+      dop: ct === "pre_onboarding" ? date : null, doj: ct === "pre_onboarding" ? null : date,
+    }, actor);
+  const adv = async (id: string, n: number) => { for (let i = 0; i < n; i++) await db.moveStage(env.DB, id, 1, LAST_STAGE); };
+
+  const a = await mk("Aarav Sharma", "Engineering", "Backend Engineer", "permanent", "immediate", "2026-07-14", "Ravi Kumar");
+  const p = await mk("Priya Menon", "Design", "Product Designer", "contractor", "immediate", "2026-07-09", "Neha Shah");
+  const r = await mk("Rahul Verma", "Sales", "Sales Executive", "permanent", "immediate", "2026-07-06", "Sayali");
+  const s = await mk("Sneha Iyer", "Human Resources", "HR Associate", "permanent", "immediate", "2026-06-28", "Angela");
+  await mk("Mohit Gupta", "Analytics", "Data Analyst", "intern", "pre_onboarding", "2026-08-03", "Ravi Kumar");
+  const k = await mk("Kabir Singh", "Engineering", "Frontend Engineer", "freelancer", "immediate", "2026-07-20", "Ravi Kumar");
+  await mk("Ananya Rao", "Marketing", "Content Lead", "consultant", "immediate", "2026-07-11", "Neha Shah");
+
+  await adv(a, 3); await adv(p, 6); await adv(r, 8); await adv(s, 8);
+  await db.setBackedOut(env.DB, k, FUNNEL_STAGES[1].label, "Accepted a competing offer");
+  const pt = await db.listTasks(env.DB, p);
+  const blockable = pt.find((t) => t.team === "it" && !t.done);
+  if (blockable) await db.setTaskBlocked(env.DB, blockable.id, "Laptop shipment delayed by vendor");
+}
+
+app.post("/settings/seed-demo", async (c) => {
+  const user = c.get("user"); if (!canConfigure(user.role)) return c.html(forbidden(user), 403);
+  await seedDemo(c.env, user.email);
+  await db.audit(c.env.DB, user.email, "settings.seed_demo", "candidate", "", "loaded sample data");
+  return c.redirect("/");
+});
+
+app.post("/settings/clear-candidates", async (c) => {
+  const user = c.get("user"); if (!canConfigure(user.role)) return c.html(forbidden(user), 403);
+  await db.clearAllCandidates(c.env.DB);
+  await db.audit(c.env.DB, user.email, "settings.clear_candidates", "candidate", "", "cleared all candidates");
   return c.redirect("/settings");
 });
 
