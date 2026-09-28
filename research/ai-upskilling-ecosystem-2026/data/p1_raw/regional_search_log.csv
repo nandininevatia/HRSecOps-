@@ -1,0 +1,42 @@
+query,date,engine,batch_no,pass,new_entities_count,new_entities
+IndiaAI FutureSkills program 2025 AI skilling,2026-09-28,WebSearch,1,F,7,IndiaAI FutureSkills;FutureSkills Prime;YUVA AI for ALL;SIDH;Microsoft ADVANTA(I)GE;SWAYAM Plus AI for All;Jio AI Classroom
+"YuvAI ""AI for All"" India government free AI course 2025",2026-09-28,WebSearch,1,F,,
+Skill India Digital Hub AI course free certificate 2025,2026-09-28,WebSearch,1,F,,
+Microsoft India AI skilling 10 million pledge 2025 ADVANTA(I)GE,2026-09-28,WebSearch,1,F,,
+AI course Hindi free 2026,2026-09-28,WebSearch,1,F,,
+GUVI HCL generative AI course learners 2025 vernacular,2026-09-28,WebSearch,2,F,5,HCL GUVI;Analytics Vidhya;PW Skills;NPTEL;Google AI Plus students India
+Analytics Vidhya GenAI Pinnacle program 2025,2026-09-28,WebSearch,2,F,,
+PW Skills AI course 2025 Physics Wallah data science generative AI,2026-09-28,WebSearch,2,F,,
+NPTEL SWAYAM artificial intelligence course enrollments 2025,2026-09-28,WebSearch,2,F,,
+Google India AI skilling announcement 2025 students free Gemini,2026-09-28,WebSearch,2,F,,
+AWS India AI skilling commitment 2025 AI Ready,2026-09-28,WebSearch,3,F,9,AWS AI Ready India;IBM India;Great Learning Academy;Coding Ninjas;Intellipaat;KITE Kerala;TN SCERT;CBSE CT&AI;STEMpedia
+Great Learning Academy free generative AI courses learners 2025,2026-09-28,WebSearch,3,F,,
+"Intellipaat OR ""Coding Ninjas"" OR ""Board Infinity"" generative AI program IIT 2025",2026-09-28,WebSearch,3,F,,
+Kerala OR Tamil Nadu state government AI training teachers 2025,2026-09-28,WebSearch,3,F,,
+CBSE AI curriculum class 3 2026 artificial intelligence school India,2026-09-28,WebSearch,3,F,,
+OpenAI Academy India launch 2025 IndiaAI Mission partnership,2026-09-28,WebSearch,4,F,11,OpenAI Academy India;iGOT Karmayogi;upGrad;Scaler;Simplilearn;Board Infinity;Masai School;Airtribe;Pratham ATM;Wadhwani AI;SOAR
+iGOT Karmayogi AI courses government employees 2025,2026-09-28,WebSearch,4,F,,
+upGrad OR Scaler OR Simplilearn AI learners India 2026 generative AI demand,2026-09-28,WebSearch,4,F,,
+"Unacademy AI course launch 2025 OR ""Airtribe"" OR ""Masai School"" AI program India",2026-09-28,WebSearch,4,F,,
+"Anthropic OR Google ""AI skilling"" India nonprofit Pratham OR ""Wadhwani AI"" 2025 course",2026-09-28,WebSearch,4,F,,
+SkillsFuture AI courses 2025 Singapore workers generative AI,2026-09-28,WebSearch,5,F,11,SkillsFuture;AIAP;Heicoders;Vertical Institute;AI untuk Rakyat;Rakyat Digital;MDEC AI Skills;AI Malaysia NAIO;Digital Talent Scholarship;AI Talent Factory;FUNiX
+AI Singapore AI4E AIAP apprenticeship 2025 learners,2026-09-28,WebSearch,5,F,,
+Malaysia AI untuk Rakyat program 2025 AI Sarawak OR MDEC AI training,2026-09-28,WebSearch,5,F,,
+Digital Talent Scholarship Komdigi 2025 AI pelatihan kecerdasan artifisial,2026-09-28,WebSearch,5,F,,
+"khóa học AI miễn phí 2025 Việt Nam FUNiX OR ""AI for Vietnam"" đào tạo trí tuệ nhân tạo",2026-09-28,WebSearch,5,F,,
+Dicoding AI course Indonesia 2025 learners Microsoft elevAIte,2026-09-28,WebSearch,6,F,13,Dicoding;elevAIte;Binar;DepEd AI Literacy;BTFM;AI Ready ASEAN;AI Thailand;Microsoft Hour of AI Thailand;SCB Academy;AI4E;TeSA;AI Springboard;Google Kenya (incidental)
+"Philippines DICT AI training program 2025 OR ""AI Ready ASEAN"" Philippines",2026-09-28,WebSearch,6,F,,
+"""AI Ready ASEAN"" ASEAN Foundation Google.org 2025 learners",2026-09-28,WebSearch,6,F,,
+"Thailand AI training program government 2025 ""AI Thailand"" OR depa AI skills million",2026-09-28,WebSearch,6,F,,
+"Singapore ""AI for Everyone"" AI4E AI Singapore 2025 OR ""AI Springboard"" OR ""TechSkills Accelerator"" AI",2026-09-28,WebSearch,6,F,,
+"Singapore ""AI skills"" workforce 2026 budget ... (NOT RUN: search budget exhausted)",2026-09-28,WebSearch,7,F,0,
+"Vietnam ""Bình dân học vụ số"" AI 2025 (NOT RUN)",2026-09-28,WebSearch,7,F,,
+kursus AI gratis 2025 Indonesia sertifikat (NOT RUN),2026-09-28,WebSearch,7,F,,
+kursus AI percuma Malaysia 2025 (NOT RUN),2026-09-28,WebSearch,7,F,,
+Philippines AI upskilling TESDA 2025 (NOT RUN),2026-09-28,WebSearch,7,F,,
+WebFetch https://www.elementsofai.com/ (EGRESS_BLOCKED),2026-09-28,WebFetch,8,F,0,
+WebFetch https://ki-campus.org/ (EGRESS_BLOCKED),2026-09-28,WebFetch,8,F,0,
+WebFetch https://www.whitehouse.gov/presidential-actions/2025/04/advancing-artificial-intelligence-education-for-american-youth/ (EGRESS_BLOCKED),2026-09-28,WebFetch,8,F,0,
+WebFetch https://code.org/en-US/hour-of-ai (EGRESS_BLOCKED),2026-09-28,WebFetch,8,F,0,
+WebFetch https://experience-ai.org/en/ (EGRESS_BLOCKED),2026-09-28,WebFetch,8,F,0,
+WebFetch https://www.pib.gov.in/PressReleasePage.aspx?PRID=2191334 (EGRESS_BLOCKED),2026-09-28,WebFetch,8,F,0,

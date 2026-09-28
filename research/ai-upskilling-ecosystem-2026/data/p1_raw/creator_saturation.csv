@@ -1,0 +1,9 @@
+category,batches_run,last3_batches_new_counts,saturated(Y/N),note
+YouTube,4,9;7;2,N,"Stopped by WebSearch budget exhaustion + youtube/socialblade egress block, not saturation. Unchecked: Dave Ebbelaar, IBM Technology, MLST, Welch Labs counts."
+GitHub repo,9,5;5;5,N,Every batch still adds ~5 in-scope repos; long tail large. Stars read directly from github.com pages 2026-09-28.
+Newsletter,1,13,N,"Existence only from GitHub awesome list; no subscriber counts (Substack/beehiiv blocked, no search budget). Rundown AI, Ben's Bites, TLDR AI, The Batch, AlphaSignal, One Useful Thing, Interconnects, Ahead of AI, The Sequence NOT verified."
+Podcast,0,0,N,No podcast search run before budget exhausted; only Dwarkesh surfaced incidentally.
+Community,1,10,N,From GitHub resource hub + Skool search; member counts only for AI Automation Society.
+Book/Documentation,2,3;4,N,Via book code repos on GitHub.
+Directory/curation,1,6,N,
+Reddit sentiment (Pass I),0,0,N,reddit.com blocked; no search budget.

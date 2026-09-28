@@ -1,0 +1,305 @@
+query_id,slice,query,date,engine,batch_no,pass,new_entities_count,new_entities
+Q-0001,ainative,ChatGPT study mode launch 2025,2026-09-28,WebSearch,1,P1-PartA,1,ChatGPT Study Mode
+Q-0002,ainative,Claude for Education learning mode launch,2026-09-28,WebSearch,1,P1-PartA,1,Claude Learning mode
+Q-0003,ainative,Gemini Guided Learning launch 2025 LearnLM,2026-09-28,WebSearch,1,P1-PartA,2,Gemini Guided Learning; LearnLM
+Q-0004,ainative,Coursera Coach AI tutor 2025 learners,2026-09-28,WebSearch,1,P1-PartA,1,Coursera Coach
+Q-0005,ainative,Khanmigo 2025 2026 users districts,2026-09-28,WebSearch,1,P1-PartA,1,Khanmigo
+Q-0006,ainative,Udemy AI Assistant AI-powered role play launch 2025,2026-09-28,WebSearch,2,P1-PartA,1,Udemy Role Play
+Q-0007,ainative,DataCamp AI assistant AI-native courses 2025,2026-09-28,WebSearch,2,P1-PartA,1,DataCamp AI-native (Optima)
+Q-0008,ainative,Codecademy AI learning assistant features 2025,2026-09-28,WebSearch,2,P1-PartA,1,Codecademy AI Learning Assistant
+Q-0009,ainative,Synthesis Tutor AI math tutor 2025,2026-09-28,WebSearch,2,P1-PartA,1,Synthesis Tutor
+Q-0010,ainative,Oboe AI learning app launch courses,2026-09-28,WebSearch,2,P1-PartA,1,Oboe
+Q-0011,ainative,"Google ""Learn Your Way"" AI textbook experiment",2026-09-28,WebSearch,3,P1-PartA,1,Learn Your Way
+Q-0012,ainative,Tutor CoPilot Stanford study results,2026-09-28,WebSearch,3,P1-PartA,1,Tutor CoPilot
+Q-0013,ainative,Squirrel AI adaptive learning 2025,2026-09-28,WebSearch,3,P1-PartA,1,Squirrel AI
+Q-0014,ainative,Physics Wallah AI Guru launch,2026-09-28,WebSearch,3,P1-PartA,1,PW Alakh AI/AI Guru
+Q-0015,ainative,CS50 duck AI tutor Harvard students,2026-09-28,WebSearch,3,P1-PartA,1,CS50 Duck
+Q-0016,ainative,Uplimit AI-powered learning platform funding 2025,2026-09-28,WebSearch,4,P1-PartA,1,Uplimit
+Q-0017,ainative,Sana Labs acquired Workday learning 2025,2026-09-28,WebSearch,4,P1-PartA,1,Sana
+Q-0018,ainative,Mindsmith AI eLearning authoring 2025,2026-09-28,WebSearch,4,P1-PartA,1,Mindsmith
+Q-0019,ainative,Arist AI microlearning Slack Teams 2025,2026-09-28,WebSearch,4,P1-PartA,1,Arist
+Q-0020,ainative,Disco AI learning platform cohort 2025,2026-09-28,WebSearch,4,P1-PartA,1,Disco
+Q-0021,ainative,Boot.dev Boots AI tutor learn backend,2026-09-28,WebSearch,5,P1-PartA,1,Boot.dev
+Q-0022,ainative,Scrimba AI engineer path AI tutor 2025,2026-09-28,WebSearch,5,P1-PartA,1,Scrimba (adjacent)
+Q-0023,ainative,Exercism AI feedback mentoring 2025,2026-09-28,WebSearch,5,P1-PartA,0,
+Q-0024,ainative,Sololearn AI coding app 2025 vibe coding learn,2026-09-28,WebSearch,5,P1-PartA,1,Sololearn Kodie
+Q-0025,ainative,Mimo AI app learn coding AI 2025,2026-09-28,WebSearch,5,P1-PartA,1,Mimo
+Q-0026,ainative,Yoodli AI roleplay coaching funding 2025,2026-09-28,WebSearch,6,P1-PartA,1,Yoodli
+Q-0027,ainative,Final Round AI interview copilot users 2025,2026-09-28,WebSearch,6,P1-PartA,1,Final Round AI
+Q-0028,ainative,AI roleplay simulation training platform raises 2025 soft skills,2026-09-28,WebSearch,6,P1-PartA,4,Virti; VirtualSpeech; SmartWinnr; Uptale
+Q-0029,ainative,Praktika AI language tutor avatar funding,2026-09-28,WebSearch,6,P1-PartA,1,Praktika
+Q-0030,ainative,Speak app AI tutor funding valuation 2024 2025,2026-09-28,WebSearch,6,P1-PartA,1,Speak
+Q-0031,ainative,AI tutor startup raises Series A 2026,2026-09-28,WebSearch,7,P1-PartA,2,Wild Zebra; Nectir
+Q-0032,ainative,AI-native learning platform launches 2026 personalized courses,2026-09-28,WebSearch,7,P1-PartA,1,Coursera Project Helix
+Q-0033,ainative,NotebookLM flashcards quizzes learning tools launch students,2026-09-28,WebSearch,7,P1-PartA,1,NotebookLM
+Q-0034,ainative,Duolingo Max video call subscribers 2025 AI first,2026-09-28,WebSearch,7,P1-PartA,1,Duolingo Max
+Q-0035,ainative,Brilliant app AI interactive learning 2025 funding,2026-09-28,WebSearch,7,P1-PartA,1,Brilliant (adjacent)
+Q-0036,ainative,Coursera Udemy merger completed 2026,2026-09-28,WebSearch,8,P1-PassE,0,(datapoints only: merger completion)
+Q-0037,ainative,Coursera Global Skills Report 2025 GenAI enrollments per minute,2026-09-28,WebSearch,9,P1-PassE,0,NOT EXECUTED - session WebSearch budget exhausted (200/200)
+Q-0038,ainative,Coursera Job Skills Report 2026 GenAI enrollments growth,2026-09-28,WebSearch,9,P1-PassE,0,NOT EXECUTED - session WebSearch budget exhausted (200/200)
+Q-0039,ainative,Stanford AI Index 2026 education chapter findings,2026-09-28,WebSearch,9,P1-PassE,0,NOT EXECUTED - session WebSearch budget exhausted (200/200)
+Q-0040,ainative,Stanford AI Index 2025 education K-12 computer science teachers AI,2026-09-28,WebSearch,9,P1-PassE,0,NOT EXECUTED - session WebSearch budget exhausted (200/200)
+Q-0041,ainative,LinkedIn Workplace Learning Report 2025 AI findings,2026-09-28,WebSearch,9,P1-PassE,0,NOT EXECUTED - session WebSearch budget exhausted (200/200)
+Q-0042,ainative,WebFetch: investor.coursera.com (Project Helix PR),2026-09-28,WebFetch,-,P1-verify,0,EGRESS_BLOCKED by proxy
+Q-0043,ainative,WebFetch: finance.yahoo.com (Project Helix),2026-09-28,WebFetch,-,P1-verify,0,EGRESS_BLOCKED by proxy
+Q-0044,ainative,WebFetch: sec.gov (Coursera 10-Q Q2 2026),2026-09-28,WebFetch,-,P1-verify,0,EGRESS_BLOCKED by proxy
+Q-0045,ainative,WebFetch: insidehighered.com,2026-09-28,WebFetch,-,P1-verify,0,EGRESS_BLOCKED by proxy
+Q-0046,ainative,WebFetch: classcentral.com,2026-09-28,WebFetch,-,P1-verify,0,EGRESS_BLOCKED by proxy
+Q-0047,ainative,WebFetch: axios.com,2026-09-28,WebFetch,-,P1-verify,0,EGRESS_BLOCKED by proxy
+Q-0048,ainative,WebFetch: blog.udemy.com,2026-09-28,WebFetch,-,P1-verify,0,EGRESS_BLOCKED by proxy
+Q-0049,ainative,WebFetch: openai.com,2026-09-28,WebFetch,-,P1-verify,0,EGRESS_BLOCKED by proxy
+Q-0050,creator,best AI YouTube channels to learn AI 2026,2026-09-28,WebSearch,1,G,10,3Blue1Brown;codebasics;Krish Naik;DeepLearningAI;Two Minute Papers;Matt Wolfe;The AI Advantage;AI Explained;CodeWithHarry;AssemblyAI;sentdex
+Q-0051,creator,top YouTube channels learn machine learning LLMs 2025 list,2026-09-28,WebSearch,1,G,10,Tina Huang;How I AI;Skill Leap AI;Wes Roth;Dwarkesh Patel;Siraj Raval;AI Foundations;Alex Finn;StatQuest;Yannic Kilcher;iNeuron;Matthew Berman
+Q-0052,creator,Andrej Karpathy YouTube subscribers Zero to Hero 2025,2026-09-28,WebSearch,1,G,2,Andrej Karpathy;Umar Jamil
+Q-0053,creator,3Blue1Brown neural networks series subscribers socialblade,2026-09-28,WebSearch,1,G,0,(metric for 3Blue1Brown)
+Q-0054,creator,Krish Naik CampusX codebasics YouTube AI India subscribers 2025,2026-09-28,WebSearch,1,G,2,CampusX;Kaggle community
+Q-0055,creator,github.com/karpathy/nanoGPT,2026-09-28,WebFetch,2,G,1,nanoGPT
+Q-0056,creator,github.com/rasbt/LLMs-from-scratch,2026-09-28,WebFetch,2,G,1,LLMs-from-scratch
+Q-0057,creator,github.com/mlabonne/llm-course,2026-09-28,WebFetch,2,G,1,llm-course
+Q-0058,creator,github.com/microsoft/generative-ai-for-beginners,2026-09-28,WebFetch,2,G,1,Generative AI for Beginners
+Q-0059,creator,github.com/microsoft/ai-agents-for-beginners,2026-09-28,WebFetch,2,G,1,AI Agents for Beginners
+Q-0060,creator,github.com/dair-ai/Prompt-Engineering-Guide,2026-09-28,WebFetch,3,G,1,Prompt Engineering Guide
+Q-0061,creator,github.com/openai/openai-cookbook,2026-09-28,WebFetch,3,G,1,OpenAI Cookbook
+Q-0062,creator,github.com/anthropics/courses,2026-09-28,WebFetch,3,G,1,Anthropic Courses
+Q-0063,creator,github.com/anthropics/claude-cookbooks,2026-09-28,WebFetch,3,G,1,Claude Cookbooks
+Q-0064,creator,github.com/microsoft/ML-For-Beginners,2026-09-28,WebFetch,3,G,1,ML-For-Beginners
+Q-0065,creator,github.com/GokuMohandas/Made-With-ML,2026-09-28,WebFetch,4,G,1,Made With ML
+Q-0066,creator,github.com/d2l-ai/d2l-en,2026-09-28,WebFetch,4,G,1,d2l.ai
+Q-0067,creator,github.com/Hannibal046/Awesome-LLM,2026-09-28,WebFetch,4,G,1,Awesome-LLM
+Q-0068,creator,github.com/karpathy/nanochat,2026-09-28,WebFetch,4,G,1,nanochat
+Q-0069,creator,github.com/Shubhamsaboo/awesome-llm-apps,2026-09-28,WebFetch,4,G,1,awesome-llm-apps
+Q-0070,creator,top AI GitHub repos to learn LLMs 2025 beginners,2026-09-28,WebSearch,5,H,2,LLM Zoomcamp;labml annotated implementations
+Q-0071,creator,best GitHub repositories learn AI agents 2026 free course,2026-09-28,WebSearch,5,H,3,GenAI_Agents;free-ai-agents-resources;awesome-ai-agents-2026(not recorded)
+Q-0072,creator,github.com/decodingml/llm-twin-course,2026-09-28,WebFetch,5,G,1,LLM Twin Course
+Q-0073,creator,github.com/huggingface/agents-course,2026-09-28,WebFetch,5,G,1,HF Agents Course
+Q-0074,creator,github.com/fastai/fastbook,2026-09-28,WebFetch,5,G,1,fastbook
+Q-0075,creator,github.com/DataTalksClub/llm-zoomcamp,2026-09-28,WebFetch,6,G,0,(metric)
+Q-0076,creator,github.com/NirDiamant/GenAI_Agents,2026-09-28,WebFetch,6,G,0,(metric)
+Q-0077,creator,github.com/labmlai/annotated_deep_learning_paper_implementations,2026-09-28,WebFetch,6,G,0,(metric)
+Q-0078,creator,github.com/DataTalksClub/machine-learning-zoomcamp,2026-09-28,WebFetch,6,G,1,ML Zoomcamp
+Q-0079,creator,github.com/NirDiamant/RAG_Techniques,2026-09-28,WebFetch,6,G,1,RAG_Techniques
+Q-0080,creator,github.com/HandsOnLLM/Hands-On-Large-Language-Models,2026-09-28,WebFetch,7,G,1,Hands-On LLMs
+Q-0081,creator,github.com/chiphuyen/aie-book,2026-09-28,WebFetch,7,G,1,AI Engineering
+Q-0082,creator,github.com/microsoft/mcp-for-beginners,2026-09-28,WebFetch,7,G,1,MCP for Beginners
+Q-0083,creator,github.com/patchy631/ai-engineering-hub,2026-09-28,WebFetch,7,G,1,AI Engineering Hub
+Q-0084,creator,github.com/google-gemini/cookbook,2026-09-28,WebFetch,7,G,1,Gemini Cookbook
+Q-0085,creator,github.com/microsoft/AI-For-Beginners,2026-09-28,WebFetch,8,G,1,AI-For-Beginners
+Q-0086,creator,github.com/karpathy/LLM101n,2026-09-28,WebFetch,8,G,1,LLM101n/Eureka Labs
+Q-0087,creator,github.com/kamranahmedse/developer-roadmap,2026-09-28,WebFetch,8,G,1,roadmap.sh
+Q-0088,creator,github.com/rasbt/reasoning-from-scratch,2026-09-28,WebFetch,8,G,1,reasoning-from-scratch
+Q-0089,creator,github.com/karpathy/micrograd,2026-09-28,WebFetch,8,G,1,micrograd
+Q-0090,creator,youtube.com/@AndrejKarpathy; socialblade 3blue1brown,2026-09-28,WebFetch,9,G,0,EGRESS BLOCKED
+Q-0091,creator,techshark/digitalocean/learnwithpath/analyticsvidhya/theaddoctor list pages,2026-09-28,WebFetch,9,H,0,EGRESS BLOCKED
+Q-0092,creator,StatQuest Josh Starmer YouTube subscribers 2025,2026-09-28,WebSearch,10,G,0,(metric)
+Q-0093,creator,Two Minute Papers Yannic Kilcher Welch Labs YouTube AI channel subscribers,2026-09-28,WebSearch,10,G,1,Welch Labs
+Q-0094,creator,Matt Wolfe Matthew Berman AI Explained YouTube subscribers 2026,2026-09-28,WebSearch,10,G,1,Feedspot list
+Q-0095,creator,Nate Herk AI Automation YouTube Skool community members 2026,2026-09-28,WebSearch,10,G,1,AI Automation Society
+Q-0096,creator,Tina Huang Jeff Su AI YouTube channel productivity learn AI 2025,2026-09-28,WebSearch,10,G,2,Jeff Su;Class Central
+Q-0097,creator,Fireship freeCodeCamp YouTube subscribers AI courses 2026,2026-09-28,WebSearch,11,G,2,Fireship;freeCodeCamp
+Q-0098,creator,Dave Ebbelaar Sam Witteveen / Umar Jamil MLST / IBM Technology / AI Advantage (4 queries),2026-09-28,WebSearch,11,G,0,NOT RUN - session WebSearch budget (200) exhausted
+Q-0099,creator,reddit/wikipedia/promptingguide.ai,2026-09-28,WebFetch,12,I,0,EGRESS BLOCKED
+Q-0100,creator,github.com/avinash201199/free-ai-agents-resources,2026-09-28,WebFetch,12,H,14,Cole Medin;1littlecoder;Sam Witteveen;r/AI_Agents;r/MachineLearning;r/LocalLLaMA;r/learnmachinelearning;HF Discord;LangChain Discord;CrewAI Discord;OpenAI Dev Community;AIMA;Papers with Code
+Q-0101,creator,github.com/topics/ai-newsletter,2026-09-28,WebFetch,12,H,1,awesome-ai-newsletters
+Q-0102,creator,github.com/huggingface/course,2026-09-28,WebFetch,12,G,1,HF Course
+Q-0103,creator,github.com/alternbits/awesome-ai-newsletters,2026-09-28,WebFetch,13,H,13,Superhuman;The Neuron;Import AI;Turing Post;AI Breakfast;There's an AI Newsletter;AI Tool Report;Techpresso;ML Engineer Newsletter;Data Elixir;DiamantAI;LLMs Research;AI Weekly
+Q-0104,creator,github.com/topics/ai-podcast,2026-09-28,WebFetch,13,H,0,(only podcast-generation tools; out of scope)
+Q-0105,creator,github.com/topics/ai-youtube-channels,2026-09-28,WebFetch,13,H,0,(empty topic)
+Q-0106,creator,github.com/anthropics/prompt-eng-interactive-tutorial,2026-09-28,WebFetch,14,G,1,Anthropic prompt tutorial
+Q-0107,creator,github.com/f/awesome-chatgpt-prompts,2026-09-28,WebFetch,14,G,1,prompts.chat
+Q-0108,creator,github.com/microsoft/Data-Science-For-Beginners,2026-09-28,WebFetch,14,G,1,DS-For-Beginners
+Q-0109,creator,github.com/fastai/course22,2026-09-28,WebFetch,14,G,1,fast.ai course22
+Q-0110,creator,github.com/NirDiamant/Prompt_Engineering,2026-09-28,WebFetch,14,G,1,Prompt_Engineering
+Q-0111,enterprise,enterprise AI training providers 2026,2026-09-28,WebSearch,1,A,20,Correlation One;Edstellar;DataCamp;Pluralsight;Multiverse;Slalom;Udemy Business;Coursera for Business;Docebo;Kubicle;NTT DATA GenAI Academy;Disco;Section;Degreed;Cornerstone;Skillsoft;US DOL framework;Sana;Workday Learning;Microsoft Elevate
+Q-0112,enterprise,corporate AI literacy program 2025 employees,2026-09-28,WebSearch,1,A,,(counted at batch level on first row)
+Q-0113,enterprise,AI upskilling platform for employees 2026,2026-09-28,WebSearch,1,A,,(counted at batch level on first row)
+Q-0114,enterprise,AI adoption training company workforce 2025,2026-09-28,WebSearch,1,A,,(counted at batch level on first row)
+Q-0115,enterprise,Workday completes acquisition of Sana AI learning,2026-09-28,WebSearch,1,A,,(counted at batch level on first row)
+Q-0116,enterprise,Section AI enterprise AI proficiency training workforce 2025,2026-09-28,WebSearch,2,A,3,Data Society;Larridin;Iternal
+Q-0117,enterprise,Multiverse AI apprenticeship 2025 funding employers,2026-09-28,WebSearch,2,A,,(counted at batch level on first row)
+Q-0118,enterprise,Skillsoft Percipio AI coach CAISY 2025 launch,2026-09-28,WebSearch,2,A,,(counted at batch level on first row)
+Q-0119,enterprise,Docebo AI-first learning platform 2025 announcement,2026-09-28,WebSearch,2,A,,(counted at batch level on first row)
+Q-0120,enterprise,Degreed AI Maestro 2025 skills platform,2026-09-28,WebSearch,2,A,,(counted at batch level on first row)
+Q-0121,enterprise,AI champions program vendor enterprise 2025,2026-09-28,WebSearch,3,C,22,WRITER;AI Enablement Academy;Lead with AI;AI Beavers;Citi AI Accelerators;Emtrain;Westminster Insight;Georgetown SCS;IAPP AIGP;Helios Salinger;Go1;GoodHabitz;BetterUp;Second Nature;Whatfix;Microsoft Learn/Adoption;Electives;Anthropic AI Fluency;MeltingSpot;Intellezy;Caltech CTME;(Microsoft Learn merged into Microsoft Adoption)
+Q-0122,enterprise,AI governance training for employees course 2026,2026-09-28,WebSearch,3,C,,(counted at batch level on first row)
+Q-0123,enterprise,role-based AI training employees provider 2025,2026-09-28,WebSearch,3,C,,(counted at batch level on first row)
+Q-0124,enterprise,AI fluency enterprise program 2026 launch,2026-09-28,WebSearch,3,C,,(counted at batch level on first row)
+Q-0125,enterprise,"""prompt training"" for employees company ChatGPT Copilot rollout training vendor",2026-09-28,WebSearch,3,C,,(counted at batch level on first row)
+Q-0126,enterprise,Accenture LearnVantage acquisition Udacity 2024 AI training,2026-09-28,WebSearch,4,A-consulting,8,Accenture LearnVantage;Udacity;QuantumBlack/McKinsey;BCG U;SkillsFuture RISE;Deloitte AI Academy;PwC Learning Collective;KPMG UK AI qualification
+Q-0127,enterprise,McKinsey QuantumBlack Horizon AI upskilling clients 2025,2026-09-28,WebSearch,4,A-consulting,,(counted at batch level on first row)
+Q-0128,enterprise,BCG U AI upskilling program clients 2025,2026-09-28,WebSearch,4,A-consulting,,(counted at batch level on first row)
+Q-0129,enterprise,Deloitte AI Academy launch 2025 train,2026-09-28,WebSearch,4,A-consulting,,(counted at batch level on first row)
+Q-0130,enterprise,PwC KPMG EY AI training all employees 2025 program,2026-09-28,WebSearch,4,A-consulting,,(counted at batch level on first row)
+Q-0131,enterprise,Infosys Springboard AI courses learners 2025,2026-09-28,WebSearch,5,A-consulting,6,Infosys Springboard;TCS iON;Pearson;Cognizant Synapse;Capgemini GenAI Campus;Wipro ai360
+Q-0132,enterprise,TCS iON AI upskilling employees 2025 AI-first,2026-09-28,WebSearch,5,A-consulting,,(counted at batch level on first row)
+Q-0133,enterprise,Cognizant Synapse skilling 1 million AI 2025,2026-09-28,WebSearch,5,A-consulting,,(counted at batch level on first row)
+Q-0134,enterprise,Capgemini Gen AI academy employees trained 2025,2026-09-28,WebSearch,5,A-consulting,,(counted at batch level on first row)
+Q-0135,enterprise,Wipro AI-ready workforce training employees 2025 program,2026-09-28,WebSearch,5,A-consulting,,(counted at batch level on first row)
+Q-0136,enterprise,Coursera Udemy merger 2026 close,2026-09-28,WebSearch,6,H/LMS,6,SkyHive;Simplilearn;360Learning;Absorb;Together Software;Blinkist
+Q-0137,enterprise,Cornerstone OnDemand AI Galaxy 2025 skills learning announcement,2026-09-28,WebSearch,6,H/LMS,,(counted at batch level on first row)
+Q-0138,enterprise,360Learning AI 2025 acquisition OR funding OR launch,2026-09-28,WebSearch,6,H/LMS,,(counted at batch level on first row)
+Q-0139,enterprise,Absorb LMS acquisition 2025 AI,2026-09-28,WebSearch,6,H/LMS,,(counted at batch level on first row)
+Q-0140,enterprise,Go1 AI skills 2025 acquisition OR launch enterprise,2026-09-28,WebSearch,6,H/LMS,,(counted at batch level on first row)
+Q-0141,enterprise,Go1 merger 2025 announced combine,2026-09-28,WebSearch,7,LMS,4,LinkedIn Learning Hub;Uplimit;Arist;NovoEd
+Q-0142,enterprise,Coursera GenAI Academy for business launch 2025,2026-09-28,WebSearch,7,LMS,,(counted at batch level on first row)
+Q-0143,enterprise,LinkedIn Learning AI-powered coaching 2025 enterprise Learning Hub AI,2026-09-28,WebSearch,7,LMS,,(counted at batch level on first row)
+Q-0144,enterprise,Uplimit AI learning platform raises 2025,2026-09-28,WebSearch,7,LMS,,(counted at batch level on first row)
+Q-0145,enterprise,Arist NovoEd AI enterprise learning 2025 acquired OR raises,2026-09-28,WebSearch,7,LMS,,(counted at batch level on first row)
+Q-0146,enterprise,Josh Bersin enterprise learning tech market transforms around AI 2026 vendors acquisitions,2026-09-28,WebSearch,8,H,9,Instructure;Thrive;Guider;Arcade;Upduo;LearnUpon;Courseau;Ascendient Learning;Training Industry certificate
+Q-0147,enterprise,acquires AI learning company 2025 corporate training,2026-09-28,WebSearch,8,H,,(counted at batch level on first row)
+Q-0148,enterprise,acquisition edtech AI upskilling 2026,2026-09-28,WebSearch,8,H,,(counted at batch level on first row)
+Q-0149,enterprise,Skillsoft acquisition OR sale 2026,2026-09-28,WebSearch,8,H,,(counted at batch level on first row)
+Q-0150,enterprise,Pluralsight AI Academy March 2026 launch,2026-09-28,WebSearch,8,H,,(counted at batch level on first row)
+Q-0151,enterprise,SAP WalkMe acquisition completed 2024 digital adoption AI,2026-09-28,WebSearch,9,digital adoption/skills,8,WalkMe;Pendo;Userlane;Workera;TechWolf;Eightfold;Gloat;Microsoft Viva Skills
+Q-0152,enterprise,Whatfix AI digital adoption 2025 funding,2026-09-28,WebSearch,9,digital adoption/skills,,(counted at batch level on first row)
+Q-0153,enterprise,Userlane OR Pendo AI agent adoption training 2025 launch,2026-09-28,WebSearch,9,digital adoption/skills,,(counted at batch level on first row)
+Q-0154,enterprise,Workera AI skills assessment enterprise 2025,2026-09-28,WebSearch,9,digital adoption/skills,,(counted at batch level on first row)
+Q-0155,enterprise,TechWolf OR Gloat OR Eightfold skills intelligence 2025 acquisition funding,2026-09-28,WebSearch,9,digital adoption/skills,,(counted at batch level on first row)
+Q-0156,enterprise,SHRM AI credential HR professionals 2026,2026-09-28,WebSearch,10,D,0,NONE - searches NOT EXECUTED: session WebSearch budget exhausted (200/200)
+Q-0157,enterprise,AI course for lawyers 2025 bar association CLE generative AI,2026-09-28,WebSearch,10,D,,(counted at batch level on first row)
+Q-0158,enterprise,CFA Institute AI certificate investment professionals 2025,2026-09-28,WebSearch,10,D,,(counted at batch level on first row)
+Q-0159,enterprise,ACCA OR ICAEW AI qualification accountants 2025 launch,2026-09-28,WebSearch,10,D,,(counted at batch level on first row)
+Q-0160,enterprise,PMI generative AI course project managers certification 2025,2026-09-28,WebSearch,10,D,,(counted at batch level on first row)
+Q-0161,enterprise,FETCH https://joshbersin.com/2026/02/the-enterprise-learning-tech-market-quickly-transforms-around-ai/,2026-09-28,WebFetch,-,verify,0,EGRESS_BLOCKED by proxy
+Q-0162,enterprise,FETCH https://joshbersin.com/2026/03/the-world-of-corporate-training-lurches-toward-enablement/,2026-09-28,WebFetch,-,verify,0,EGRESS_BLOCKED by proxy
+Q-0163,enterprise,FETCH https://trainingindustry.com/.../ma-in-corporate-training-deals-of-the-fourth-quarter-of-2025/,2026-09-28,WebFetch,-,verify,0,EGRESS_BLOCKED by proxy
+Q-0164,enterprise,FETCH https://trainingindustry.com/.../ma-in-corporate-training-deals-of-the-third-quarter-of-2025/,2026-09-28,WebFetch,-,verify,0,EGRESS_BLOCKED by proxy
+Q-0165,enterprise,FETCH https://artificialintelligenceact.eu/article/4/,2026-09-28,WebFetch,-,verify,0,EGRESS_BLOCKED by proxy
+Q-0166,enterprise,FETCH https://www.shrm.org/credentials/ai-hr,2026-09-28,WebFetch,-,verify,0,EGRESS_BLOCKED by proxy
+Q-0167,enterprise,FETCH https://iapp.org/certify/aigp/,2026-09-28,WebFetch,-,verify,0,EGRESS_BLOCKED by proxy
+Q-0168,enterprise,FETCH https://eur-lex.europa.eu/eli/reg/2024/1689/oj (curl),2026-09-28,WebFetch,-,verify,0,EGRESS_BLOCKED by proxy
+Q-0169,formal,Coursera Udemy merger 2026,2026-09-28,WebSearch,1,A,3,Coursera;Udemy;Course Report
+Q-0170,formal,best AI learning platforms 2026,2026-09-28,WebSearch,1,A,1,(enterprise LMS only - out of slice)
+Q-0171,formal,AI bootcamp 2026,2026-09-28,WebSearch,1,A,5,TripleTen;Dataquest;ODSC;NACE;Course Report
+Q-0172,formal,executive education AI strategy program 2026,2026-09-28,WebSearch,1,A,4,Kelley;Wharton;HBS ExEd;UC Berkeley ExecEd;DigitalDefynd
+Q-0173,formal,online master's in artificial intelligence 2026,2026-09-28,WebSearch,1,A,7,ASU W. P. Carey;JHU EP;CMU;Georgia Tech OMSCS;UIUC MCS;UNM
+Q-0174,formal,[fetch] coursereport best AI bootcamps,2026-09-28,WebFetch,2,H,0,blocked
+Q-0175,formal,[fetch] tripleten best AI bootcamp,2026-09-28,WebFetch,2,H,0,blocked
+Q-0176,formal,[fetch] digitaldefynd AI exec ed,2026-09-28,WebFetch,2,H,0,blocked
+Q-0177,formal,[fetch] Coursera IR completion PR,2026-09-28,WebFetch,2,H,0,blocked
+Q-0178,formal,2U edX 2025 bankruptcy emergence owner edX status 2026,2026-09-28,WebSearch,2,H,2,2U;edX
+Q-0179,formal,edX 2026 news AI courses 2U,2026-09-28,WebSearch,3,H,2,CodeSignal;Microsoft CxO Edge
+Q-0180,formal,Skillsoft Codecademy 2026 sale,2026-09-28,WebSearch,3,H,2,Codecademy;Skillsoft
+Q-0181,formal,Pluralsight 2025 2026 AI skills acquisition news,2026-09-28,WebSearch,3,H,1,Pluralsight
+Q-0182,formal,Udacity Accenture 2025 AI courses,2026-09-28,WebSearch,3,H,3,Udacity;Woolf;Accenture LearnVantage
+Q-0183,formal,DataCamp learners AI 2026,2026-09-28,WebSearch,3,H,1,DataCamp
+Q-0184,formal,DeepLearning.AI short courses learners 2026,2026-09-28,WebSearch,4,A,2,DeepLearning.AI;Class Central
+Q-0185,formal,Maven cohort-based AI courses 2026,2026-09-28,WebSearch,4,A,2,Maven;GenAICoursePath
+Q-0186,formal,Reforge AI product management course 2025,2026-09-28,WebSearch,4,A,1,Reforge
+Q-0187,formal,Simplilearn generative AI program 2026 learners,2026-09-28,WebSearch,4,A,4,Simplilearn;Duke ExecEd;UCSB PCE;IIT Guwahati
+Q-0188,formal,Great Learning AI programs 2026 learners,2026-09-28,WebSearch,4,A,2,Great Learning;UT Austin McCombs
+Q-0189,formal,Emeritus AI programs 2026 news,2026-09-28,WebSearch,5,A,3,Emeritus;Imperial ExecEd;AIM
+Q-0190,formal,General Assembly AI academy 2026,2026-09-28,WebSearch,5,A,1,General Assembly
+Q-0191,formal,Multiverse AI apprenticeship 2026 learners,2026-09-28,WebSearch,5,A,1,Multiverse
+Q-0192,formal,upGrad AI courses 2026 acquisition,2026-09-28,WebSearch,5,A,2,upGrad;Unacademy
+Q-0193,formal,Section AI proficiency course Scott Galloway 2025,2026-09-28,WebSearch,5,A,2,Section;BSI Digital Learning
+Q-0194,formal,Scaler AI machine learning program 2026,2026-09-28,WebSearch,6,A,2,Scaler;IIT Roorkee
+Q-0195,formal,LinkedIn Learning AI courses learners 2025 2026,2026-09-28,WebSearch,6,A,2,LinkedIn Learning;Research.com
+Q-0196,formal,O'Reilly learning platform AI Academy 2026,2026-09-28,WebSearch,6,A,1,O'Reilly
+Q-0197,formal,fast.ai practical deep learning course 2025 solveit,2026-09-28,WebSearch,6,A,2,fast.ai;MIT OCW
+Q-0198,formal,Codecademy freeCodeCamp Brilliant AI course 2026,2026-09-28,WebSearch,6,A,3,freeCodeCamp;Scrimba;FreeAcademy.ai
+Q-0199,formal,MIT xPRO AI program 2026,2026-09-28,WebSearch,7,A,1,MIT xPRO
+Q-0200,formal,Stanford Online AI professional certificate 2026,2026-09-28,WebSearch,7,A,1,Stanford Online
+Q-0201,formal,Harvard CS50 AI with Python 2025 enrollment,2026-09-28,WebSearch,7,A,1,Harvard CS50 AI
+Q-0202,formal,Brilliant.org AI course how LLMs work 2025,2026-09-28,WebSearch,7,A,1,Brilliant
+Q-0203,formal,Dataquest AI engineer path 2026,2026-09-28,WebSearch,7,A,0,
+Q-0204,formal,best AI engineering bootcamps 2026 Springboard TripleTen Le Wagon,2026-09-28,WebSearch,8,D,2,Springboard;Le Wagon
+Q-0205,formal,Interview Kickstart applied AI program 2026,2026-09-28,WebSearch,8,D,1,Interview Kickstart
+Q-0206,formal,Le Wagon AI software development bootcamp 2026,2026-09-28,WebSearch,8,D,1,
+Q-0207,formal,Turing College AI engineering program,2026-09-28,WebSearch,8,D,3,Turing College;Career Karma;SwitchUp
+Q-0208,formal,machine learning bootcamp career change 2026 review,2026-09-28,WebSearch,8,D,3,Fullstack Academy;Metis;Nucamp
+Q-0209,formal,Nucamp AI essentials bootcamp 2026,2026-09-28,WebSearch,9,C,0,
+Q-0210,formal,Flatiron School AI 2025 2026 bootcamp,2026-09-28,WebSearch,9,C,3,Flatiron School;SMU Online;BrainStation
+Q-0211,formal,Zero To Mastery AI engineering career path 2026,2026-09-28,WebSearch,9,C,1,Zero To Mastery
+Q-0212,formal,Fullstack Academy AI machine learning bootcamp university partner 2026,2026-09-28,WebSearch,9,C,1,University of San Diego bootcamp
+Q-0213,formal,WorldQuant University free AI lab 2025,2026-09-28,WebSearch,9,C,1,WorldQuant University
+Q-0214,formal,Oxford Saïd Business School AI programme online 2026,2026-09-28,WebSearch,10,A,0,NOT RUN - session WebSearch budget exhausted
+Q-0215,formal,INSEAD artificial intelligence executive programme 2026,2026-09-28,WebSearch,10,A,0,NOT RUN - session WebSearch budget exhausted
+Q-0216,formal,Kellogg Executive Education AI applications for growth 2026,2026-09-28,WebSearch,10,A,0,NOT RUN - session WebSearch budget exhausted
+Q-0217,formal,MIT Sloan Executive Education artificial intelligence business strategy online 2026,2026-09-28,WebSearch,10,A,0,NOT RUN - session WebSearch budget exhausted
+Q-0218,formal,IIM executive programme AI for business leaders 2026,2026-09-28,WebSearch,10,A,0,NOT RUN - session WebSearch budget exhausted
+Q-0219,formal,[fetch] dataquest best AI bootcamps,2026-09-28,WebFetch,11,C,0,blocked
+Q-0220,formal,[fetch] nucamp top 10 AI bootcamps,2026-09-28,WebFetch,11,C,0,blocked
+Q-0221,formal,[fetch] mastersinai online AI masters,2026-09-28,WebFetch,11,C,0,blocked
+Q-0222,formal,[fetch] aibmag top AI exec ed,2026-09-28,WebFetch,11,C,0,blocked
+Q-0223,formal,[fetch] productcompass Maven courses,2026-09-28,WebFetch,11,C,0,blocked
+Q-0224,regional,IndiaAI FutureSkills program 2025 AI skilling,2026-09-28,WebSearch,1,F,7,IndiaAI FutureSkills;FutureSkills Prime;YUVA AI for ALL;SIDH;Microsoft ADVANTA(I)GE;SWAYAM Plus AI for All;Jio AI Classroom
+Q-0225,regional,"YuvAI ""AI for All"" India government free AI course 2025",2026-09-28,WebSearch,1,F,,
+Q-0226,regional,Skill India Digital Hub AI course free certificate 2025,2026-09-28,WebSearch,1,F,,
+Q-0227,regional,Microsoft India AI skilling 10 million pledge 2025 ADVANTA(I)GE,2026-09-28,WebSearch,1,F,,
+Q-0228,regional,AI course Hindi free 2026,2026-09-28,WebSearch,1,F,,
+Q-0229,regional,GUVI HCL generative AI course learners 2025 vernacular,2026-09-28,WebSearch,2,F,5,HCL GUVI;Analytics Vidhya;PW Skills;NPTEL;Google AI Plus students India
+Q-0230,regional,Analytics Vidhya GenAI Pinnacle program 2025,2026-09-28,WebSearch,2,F,,
+Q-0231,regional,PW Skills AI course 2025 Physics Wallah data science generative AI,2026-09-28,WebSearch,2,F,,
+Q-0232,regional,NPTEL SWAYAM artificial intelligence course enrollments 2025,2026-09-28,WebSearch,2,F,,
+Q-0233,regional,Google India AI skilling announcement 2025 students free Gemini,2026-09-28,WebSearch,2,F,,
+Q-0234,regional,AWS India AI skilling commitment 2025 AI Ready,2026-09-28,WebSearch,3,F,9,AWS AI Ready India;IBM India;Great Learning Academy;Coding Ninjas;Intellipaat;KITE Kerala;TN SCERT;CBSE CT&AI;STEMpedia
+Q-0235,regional,Great Learning Academy free generative AI courses learners 2025,2026-09-28,WebSearch,3,F,,
+Q-0236,regional,"Intellipaat OR ""Coding Ninjas"" OR ""Board Infinity"" generative AI program IIT 2025",2026-09-28,WebSearch,3,F,,
+Q-0237,regional,Kerala OR Tamil Nadu state government AI training teachers 2025,2026-09-28,WebSearch,3,F,,
+Q-0238,regional,CBSE AI curriculum class 3 2026 artificial intelligence school India,2026-09-28,WebSearch,3,F,,
+Q-0239,regional,OpenAI Academy India launch 2025 IndiaAI Mission partnership,2026-09-28,WebSearch,4,F,11,OpenAI Academy India;iGOT Karmayogi;upGrad;Scaler;Simplilearn;Board Infinity;Masai School;Airtribe;Pratham ATM;Wadhwani AI;SOAR
+Q-0240,regional,iGOT Karmayogi AI courses government employees 2025,2026-09-28,WebSearch,4,F,,
+Q-0241,regional,upGrad OR Scaler OR Simplilearn AI learners India 2026 generative AI demand,2026-09-28,WebSearch,4,F,,
+Q-0242,regional,"Unacademy AI course launch 2025 OR ""Airtribe"" OR ""Masai School"" AI program India",2026-09-28,WebSearch,4,F,,
+Q-0243,regional,"Anthropic OR Google ""AI skilling"" India nonprofit Pratham OR ""Wadhwani AI"" 2025 course",2026-09-28,WebSearch,4,F,,
+Q-0244,regional,SkillsFuture AI courses 2025 Singapore workers generative AI,2026-09-28,WebSearch,5,F,11,SkillsFuture;AIAP;Heicoders;Vertical Institute;AI untuk Rakyat;Rakyat Digital;MDEC AI Skills;AI Malaysia NAIO;Digital Talent Scholarship;AI Talent Factory;FUNiX
+Q-0245,regional,AI Singapore AI4E AIAP apprenticeship 2025 learners,2026-09-28,WebSearch,5,F,,
+Q-0246,regional,Malaysia AI untuk Rakyat program 2025 AI Sarawak OR MDEC AI training,2026-09-28,WebSearch,5,F,,
+Q-0247,regional,Digital Talent Scholarship Komdigi 2025 AI pelatihan kecerdasan artifisial,2026-09-28,WebSearch,5,F,,
+Q-0248,regional,"khóa học AI miễn phí 2025 Việt Nam FUNiX OR ""AI for Vietnam"" đào tạo trí tuệ nhân tạo",2026-09-28,WebSearch,5,F,,
+Q-0249,regional,Dicoding AI course Indonesia 2025 learners Microsoft elevAIte,2026-09-28,WebSearch,6,F,13,Dicoding;elevAIte;Binar;DepEd AI Literacy;BTFM;AI Ready ASEAN;AI Thailand;Microsoft Hour of AI Thailand;SCB Academy;AI4E;TeSA;AI Springboard;Google Kenya (incidental)
+Q-0250,regional,"Philippines DICT AI training program 2025 OR ""AI Ready ASEAN"" Philippines",2026-09-28,WebSearch,6,F,,
+Q-0251,regional,"""AI Ready ASEAN"" ASEAN Foundation Google.org 2025 learners",2026-09-28,WebSearch,6,F,,
+Q-0252,regional,"Thailand AI training program government 2025 ""AI Thailand"" OR depa AI skills million",2026-09-28,WebSearch,6,F,,
+Q-0253,regional,"Singapore ""AI for Everyone"" AI4E AI Singapore 2025 OR ""AI Springboard"" OR ""TechSkills Accelerator"" AI",2026-09-28,WebSearch,6,F,,
+Q-0254,regional,"Singapore ""AI skills"" workforce 2026 budget ... (NOT RUN: search budget exhausted)",2026-09-28,WebSearch,7,F,0,
+Q-0255,regional,"Vietnam ""Bình dân học vụ số"" AI 2025 (NOT RUN)",2026-09-28,WebSearch,7,F,,
+Q-0256,regional,kursus AI gratis 2025 Indonesia sertifikat (NOT RUN),2026-09-28,WebSearch,7,F,,
+Q-0257,regional,kursus AI percuma Malaysia 2025 (NOT RUN),2026-09-28,WebSearch,7,F,,
+Q-0258,regional,Philippines AI upskilling TESDA 2025 (NOT RUN),2026-09-28,WebSearch,7,F,,
+Q-0259,regional,WebFetch https://www.elementsofai.com/ (EGRESS_BLOCKED),2026-09-28,WebFetch,8,F,0,
+Q-0260,regional,WebFetch https://ki-campus.org/ (EGRESS_BLOCKED),2026-09-28,WebFetch,8,F,0,
+Q-0261,regional,WebFetch https://www.whitehouse.gov/presidential-actions/2025/04/advancing-artificial-intelligence-education-for-american-youth/ (EGRESS_BLOCKED),2026-09-28,WebFetch,8,F,0,
+Q-0262,regional,WebFetch https://code.org/en-US/hour-of-ai (EGRESS_BLOCKED),2026-09-28,WebFetch,8,F,0,
+Q-0263,regional,WebFetch https://experience-ai.org/en/ (EGRESS_BLOCKED),2026-09-28,WebFetch,8,F,0,
+Q-0264,regional,WebFetch https://www.pib.gov.in/PressReleasePage.aspx?PRID=2191334 (EGRESS_BLOCKED),2026-09-28,WebFetch,8,F,0,
+Q-0265,vendor,Microsoft Elevate AI skilling commitment 2025,2026-09-28,WebSearch,1,H,2,Microsoft Elevate;Microsoft Elevate Academy
+Q-0266,vendor,OpenAI Certifications jobs platform certify 10 million Americans,2026-09-28,WebSearch,1,H,2,OpenAI Certifications;OpenAI Jobs Platform
+Q-0267,vendor,AWS AI Ready 2 million people free AI skills training,2026-09-28,WebSearch,1,H,2,AWS AI Ready;AWS Skill Builder
+Q-0268,vendor,Anthropic Academy courses AI Fluency 2025,2026-09-28,WebSearch,1,B,1,Anthropic Academy (Claude Academy)
+Q-0269,vendor,Google AI Works skilling commitment 2025 AI Essentials learners,2026-09-28,WebSearch,1,H,2,Google AI Essentials;Google Skills
+Q-0270,vendor,OpenAI Academy learners milestone 2026,2026-09-28,WebSearch,2,B,1,OpenAI Academy
+Q-0271,vendor,OpenAI Certifications courses launched Coursera AI Foundations 2026,2026-09-28,WebSearch,2,B,0,
+Q-0272,vendor,Google Skills launch replaces Cloud Skills Boost October 2025 learners,2026-09-28,WebSearch,2,B,1,Google Cloud Skills Boost (legacy)
+Q-0273,vendor,Microsoft AI-102 retirement replacement AI-103 certification 2026,2026-09-28,WebSearch,2,B,2,Microsoft Learn;Azure AI App and Agent Developer Associate (AI-103)
+Q-0274,vendor,Microsoft AI Skills Fest record learners Guinness 2025,2026-09-28,WebSearch,2,B,1,Microsoft AI Skills Fest
+Q-0275,vendor,AWS Certified Generative AI Developer Professional launch 2025,2026-09-28,WebSearch,3,B,1,AWS Certified Generative AI Developer - Professional
+Q-0276,vendor,NVIDIA Deep Learning Institute certification generative AI LLM associate 2025,2026-09-28,WebSearch,3,B,2,NVIDIA DLI;NVIDIA Certification (NCA-GENL)
+Q-0277,vendor,IBM SkillsBuild 2 million AI skills 2026 commitment learners,2026-09-28,WebSearch,3,B,1,IBM SkillsBuild
+Q-0278,vendor,Salesforce Trailhead Agentforce certification learners 2025,2026-09-28,WebSearch,3,B,2,Salesforce Trailhead;Agentblazer / Agentforce Specialist
+Q-0279,vendor,Hugging Face Learn agents course MCP course learners 2025,2026-09-28,WebSearch,3,B,1,Hugging Face Learn
+Q-0280,vendor,Kaggle 5-Day AI Agents Intensive Google registrants 2025,2026-09-28,WebSearch,4,B,2,Kaggle Learn;Kaggle x Google 5-Day Intensives
+Q-0281,vendor,Databricks free training generative AI engineer associate certification 2025 $100 million,2026-09-28,WebSearch,4,B,1,Databricks Academy
+Q-0282,vendor,Oracle University OCI Generative AI Professional certification free 2025,2026-09-28,WebSearch,4,B,1,Oracle University
+Q-0283,vendor,Snowflake Northstar AI education certification SnowPro 2025,2026-09-28,WebSearch,4,B,1,Snowflake Northstar / SnowPro
+Q-0284,vendor,Dataiku Academy generative AI certification 2025,2026-09-28,WebSearch,4,B,1,Dataiku Academy
+Q-0285,vendor,LangChain Academy free courses LangGraph learners 2025,2026-09-28,WebSearch,5,B,1,LangChain Academy
+Q-0286,vendor,Cohere LLM University Weights & Biases AI Academy courses 2025,2026-09-28,WebSearch,5,B,2,Cohere LLM University;W&B AI Academy
+Q-0287,vendor,n8n Zapier Make academy AI automation course certification 2025,2026-09-28,WebSearch,5,B,2,n8n Education;Make Academy
+Q-0288,vendor,GitHub Copilot certification GH-300 launch GitHub Skills 2025,2026-09-28,WebSearch,5,B,1,GitHub Copilot Certification (GH-300)
+Q-0289,vendor,Cursor Learn course Replit Lovable academy vibe coding learning 2025,2026-09-28,WebSearch,5,B,0,
+Q-0290,vendor,Cursor Learn free course AI foundations cursor.com/learn,2026-09-28,WebSearch,6,B,1,Cursor Learn
+Q-0291,vendor,Replit AI certification learn 2026,2026-09-28,WebSearch,6,B,2,Replit Learn;LinkedIn AI tool certifications
+Q-0292,vendor,Meta Llama developer course learning resources Llama Academy DeepLearning.AI,2026-09-28,WebSearch,6,B,1,Meta Llama developer resources/cookbook
+Q-0293,vendor,Google DeepMind AI Research Foundations course education 2025,2026-09-28,WebSearch,6,B,1,Google DeepMind Education (AI Research Foundations)
+Q-0294,vendor,Mistral AI academy course OR Perplexity education learning program 2025,2026-09-28,WebSearch,6,B,1,Mistral Learn (learn.mistral.ai)
+Q-0295,vendor,SAP Learning Business AI Joule free courses 2025 learners,2026-09-28,WebSearch,7,B,1,SAP Learning
+Q-0296,vendor,ServiceNow University AI skills 3 million learners 2027 commitment,2026-09-28,WebSearch,7,B,1,ServiceNow University
+Q-0297,vendor,HubSpot Academy AI certification course 2025,2026-09-28,WebSearch,7,B,1,HubSpot Academy
+Q-0298,vendor,Cisco Networking Academy AI courses million learners 2025 commitment,2026-09-28,WebSearch,7,B,2,Cisco Networking Academy;Learn with Cisco AI certs
+Q-0299,vendor,Workday AI skills learning program OR Adobe Firefly certification OR Canva AI course 2025,2026-09-28,WebSearch,7,B,1,Adobe Experience League AI Training / Adobe Certified Professional Firefly
+Q-0300,vendor,IAPP AIGP certification number certified 2025,2026-09-28,WebSearch,8,C,0,NOT RUN - session web search budget (200) exhausted
+Q-0301,vendor,ISACA AAIA AAISM AI audit security certification launch 2025,2026-09-28,WebSearch,8,C,0,NOT RUN - budget exhausted; WebFetch isaca.org egress-blocked
+Q-0302,vendor,CompTIA AI certification launch 2025 2026 AI Essentials SecAI+,2026-09-28,WebSearch,8,C,0,NOT RUN - budget exhausted; WebFetch comptia.org egress-blocked
+Q-0303,vendor,PMI CPMAI certification AI project management acquired Cognilytica 2025,2026-09-28,WebSearch,8,C,0,NOT RUN - budget exhausted; WebFetch pmi.org egress-blocked
+Q-0304,vendor,Linux Foundation AI courses certification 2025 agentic AI foundation training,2026-09-28,WebSearch,8,C,0,NOT RUN - budget exhausted

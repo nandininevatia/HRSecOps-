@@ -1,0 +1,107 @@
+kept_id,merged_raw_id,merged_raw_key,merged_name,action,reason,decided
+P-017,R-ain004,ain004,LearnLM,re-levelled to program,LearnLM is the model family behind Gemini learning features,P2 manual review 2026-09-28
+P-127,R-ain007,ain007,Coursera Coach,re-levelled to program,Coursera Coach is an AI tutor feature inside Coursera,P2 manual review 2026-09-28
+P-127,R-ain008,ain008,Coursera Project Helix,re-levelled to program,"Project Helix is an announced Coursera product, not a separate live platform",P2 manual review 2026-09-28
+P-171,R-ain010,ain010,Udemy AI-powered Role Play,re-levelled to program,AI Role Play is a feature inside Udemy,P2 manual review 2026-09-28
+P-128,R-ain011,ain011,DataCamp AI-native learning (Optima),re-levelled to program,Optima is DataCamp's AI-native learning feature,P2 manual review 2026-09-28
+P-126,R-ain012,ain012,Codecademy AI Learning Assistant,re-levelled to program,Codecademy AI Learning Assistant is a feature of Codecademy,P2 manual review 2026-09-28
+P-143,R-ain018,ain018,CS50 Duck,re-levelled to program,CS50 Duck is the AI tutor used in Harvard CS50 courses,P2 manual review 2026-09-28
+P-200,R-ain025,ain025,Scrimba AI Engineer Path,merge,Scrimba found by two slices,P2 manual review 2026-09-28
+P-196,R-ain038,ain038,Brilliant,merge,Brilliant found by two slices,P2 manual review 2026-09-28
+P-242,R-cre001,cre001,nanoGPT (Karpathy),re-levelled to program,Karpathy repo — same creator entity,P2 manual review 2026-09-28
+P-275,R-cre002,cre002,LLMs-from-scratch (Raschka),re-levelled to program,Raschka repo — same creator entity,P2 manual review 2026-09-28
+P-270,R-cre004,cre004,Generative AI for Beginners (Microsoft),re-levelled to program,Microsoft GitHub curriculum repo,P2 manual review 2026-09-28
+P-270,R-cre005,cre005,AI Agents for Beginners (Microsoft),re-levelled to program,Microsoft GitHub curriculum repo,P2 manual review 2026-09-28
+P-270,R-cre006,cre006,ML-For-Beginners (Microsoft),re-levelled to program,Microsoft GitHub curriculum repo,P2 manual review 2026-09-28
+P-270,R-cre007,cre007,AI-For-Beginners (Microsoft),re-levelled to program,Microsoft GitHub curriculum repo,P2 manual review 2026-09-28
+P-270,R-cre008,cre008,Data-Science-For-Beginners (Microsoft),re-levelled to program,Microsoft GitHub curriculum repo,P2 manual review 2026-09-28
+P-270,R-cre009,cre009,MCP for Beginners (Microsoft),re-levelled to program,Microsoft GitHub curriculum repo,P2 manual review 2026-09-28
+P-009,R-cre011,cre011,OpenAI Cookbook,re-levelled to program,OpenAI Cookbook is an OpenAI developer-learning asset,P2 manual review 2026-09-28
+P-001,R-cre012,cre012,Anthropic Courses,re-levelled to program,Anthropic courses repo (archived 2026-09-15),P2 manual review 2026-09-28
+P-001,R-cre013,cre013,Claude Cookbooks (formerly anthropic-cookbook),re-levelled to program,Claude Cookbooks (renamed from anthropic-cookbook),P2 manual review 2026-09-28
+P-001,R-cre014,cre014,Anthropic Prompt Engineering Interactive Tutorial,re-levelled to program,Anthropic prompt-engineering interactive tutorial,P2 manual review 2026-09-28
+P-242,R-cre019,cre019,nanochat (Karpathy),re-levelled to program,Karpathy repo — same creator entity,P2 manual review 2026-09-28
+P-242,R-cre020,cre020,LLM101n (Karpathy / Eureka Labs),re-levelled to program,Karpathy/Eureka Labs repo — same creator entity,P2 manual review 2026-09-28
+P-242,R-cre021,cre021,micrograd (Karpathy),re-levelled to program,Karpathy repo — same creator entity,P2 manual review 2026-09-28
+P-197,R-cre024,cre024,Hugging Face Agents Course,re-levelled to program,Hugging Face Agents Course,P2 manual review 2026-09-28
+P-197,R-cre025,cre025,Hugging Face (Transformers/LLM) Course,re-levelled to program,Hugging Face LLM/Transformers Course,P2 manual review 2026-09-28
+P-134,R-cre026,cre026,fastai book (fastbook),re-levelled to program,fastbook is the fast.ai course book,P2 manual review 2026-09-28
+P-134,R-cre027,cre027,fast.ai Practical Deep Learning for Coders (course22),re-levelled to program,fast.ai Practical Deep Learning course materials,P2 manual review 2026-09-28
+P-032,R-cre028,cre028,DataTalks.Club LLM Zoomcamp,re-levelled to program,DataTalks.Club Zoomcamp,P2 manual review 2026-09-28
+P-032,R-cre029,cre029,DataTalks.Club ML Zoomcamp,re-levelled to program,DataTalks.Club Zoomcamp,P2 manual review 2026-09-28
+P-272,R-cre030,cre030,GenAI_Agents (Nir Diamant),re-levelled to program,Nir Diamant repo — same creator entity,P2 manual review 2026-09-28
+P-272,R-cre031,cre031,RAG_Techniques (Nir Diamant),re-levelled to program,Nir Diamant repo — same creator entity,P2 manual review 2026-09-28
+P-272,R-cre032,cre032,Prompt_Engineering (Nir Diamant),re-levelled to program,Nir Diamant repo — same creator entity,P2 manual review 2026-09-28
+P-249,R-cre035,cre035,AI Engineering book repo (Chip Huyen),re-levelled to program,Chip Huyen book repo — same creator entity,P2 manual review 2026-09-28
+P-260,R-cre036,cre036,Hands-On Large Language Models (book repo),re-levelled to program,Alammar & Grootendorst repo — same creator entity,P2 manual review 2026-09-28
+P-275,R-cre037,cre037,Build a Reasoning Model (From Scratch) repo,re-levelled to program,Raschka repo — same creator entity,P2 manual review 2026-09-28
+P-136,R-cre052,cre052,freeCodeCamp,merge,freeCodeCamp YouTube is a channel of freeCodeCamp,P2 manual review 2026-09-28
+P-130,R-cre060,cre060,DeepLearningAI YouTube,merge,DeepLearning.AI YouTube is a distribution channel of the same creator,P2 manual review 2026-09-28
+P-272,R-cre086,cre086,DiamantAI newsletter,re-levelled to program,DiamantAI newsletter — same creator entity,P2 manual review 2026-09-28
+P-197,R-cre093,cre093,Hugging Face Discord,merge,Hugging Face Discord is the community layer of Hugging Face Learn,P2 manual review 2026-09-28
+P-006,R-cre094,cre094,LangChain Discord / community,merge,LangChain community is the community layer of LangChain Academy,P2 manual review 2026-09-28
+P-198,R-cre097,cre097,"Kaggle community (discussions, Learn)",merge,Kaggle community discussions are part of the kaggle.com learning platform,P2 manual review 2026-09-28
+P-076,R-cre098,cre098,Class Central,merge,Class Central found by three slices,P2 manual review 2026-09-28
+P-119,R-cre101,cre101,Analytics Vidhya (blog/community),merge,Analytics Vidhya found by two slices,P2 manual review 2026-09-28
+P-275,R-cre104,cre104,Build a Large Language Model (From Scratch) (book),re-levelled to program,Raschka book — same creator entity,P2 manual review 2026-09-28
+P-249,R-cre105,cre105,"AI Engineering (book, 2025)",re-levelled to program,Chip Huyen book — same creator entity,P2 manual review 2026-09-28
+P-260,R-cre106,cre106,Hands-On Large Language Models (book),re-levelled to program,Alammar & Grootendorst book — same creator entity,P2 manual review 2026-09-28
+P-109,R-ent001,ent001,Sana,merge,Sana found by two slices,P2 manual review 2026-09-28
+P-095,R-ent006,ent006,SkyHive by Cornerstone,re-levelled to program,SkyHive is a Cornerstone skills-intelligence product,P2 manual review 2026-09-28
+P-171,R-ent012,ent012,Udemy Business,merge,Udemy Business is the enterprise product of the Udemy platform,P2 manual review 2026-09-28
+P-127,R-ent013,ent013,Coursera for Business,merge,Coursera for Business is a commercial product of the Coursera platform (brief §8 example),P2 manual review 2026-09-28
+P-150,R-ent014,ent014,LinkedIn Learning Hub,merge,LinkedIn Learning Hub is the enterprise product of LinkedIn Learning,P2 manual review 2026-09-28
+P-158,R-ent015,ent015,Pluralsight AI Academy,re-levelled to program,Pluralsight AI Academy is a program of Pluralsight,P2 manual review 2026-09-28
+P-114,R-ent016,ent016,Uplimit,merge,Uplimit found by two slices,P2 manual review 2026-09-28
+P-093,R-ent017,ent017,Arist,merge,Arist found by two slices,P2 manual review 2026-09-28
+P-033,R-ent019,ent019,Disco,merge,Disco found by two slices,P2 manual review 2026-09-28
+P-128,R-ent020,ent020,DataCamp for Business,merge,DataCamp for Business is the enterprise product of DataCamp,P2 manual review 2026-09-28
+P-161,R-ent021,ent021,Section,merge,Section found by two slices,P2 manual review 2026-09-28
+P-029,R-ent022,ent022,Multiverse,merge,Multiverse found by two slices,P2 manual review 2026-09-28
+G-071,R-ent048,ent048,Microsoft Elevate,merge,Microsoft Elevate found by two slices,P2 manual review 2026-09-28
+P-170,R-ent055,ent055,Udacity,merge,Udacity found by two slices,P2 manual review 2026-09-28
+P-106,R-ent071,ent071,Courseau,re-levelled to program,Courseau acquired into LearnUpon,P2 manual review 2026-09-28
+P-092,R-ent073,ent073,Upduo,re-levelled to program,Upduo acquired into Arcade,P2 manual review 2026-09-28
+P-162,R-ent075,ent075,Simplilearn,merge,Simplilearn found by three slices,P2 manual review 2026-09-28
+P-001,R-ent081,ent081,Anthropic AI Fluency (with PayPal) for Small Business,re-levelled to program,AI Fluency for small business (with PayPal) is an Anthropic course,P2 manual review 2026-09-28
+P-192,R-ent084,ent084,SkillsFuture Singapore (RISE with BCG U),re-levelled to program,RISE is a SkillsFuture-supported program delivered with BCG U,P2 manual review 2026-09-28
+O-002,R-for004,for004,2U,re-levelled to parent org,"2U is the parent org of edX, not a learner-facing platform",P2 manual review 2026-09-28
+P-111,R-for020,for020,Skillsoft,merge,Skillsoft record describes the company whose learner platform is Percipio,P2 manual review 2026-09-28
+P-133,R-for047,for047,Asian Institute of Management (Emeritus programs),re-levelled to program,AIM executive programs delivered by Emeritus,P2 manual review 2026-09-28
+P-132,R-for060,for060,Microsoft CxO Edge on edX,re-levelled to program,"Microsoft CxO Edge is delivered on edX (creator Microsoft, host edX)",P2 manual review 2026-09-28
+P-044,R-for062,for062,Accenture LearnVantage,merge,Accenture LearnVantage found by two slices,P2 manual review 2026-09-28
+P-160,R-for064,for064,IIT Roorkee (continuing ed via Scaler),re-levelled to program,IIT Roorkee program delivered via Scaler (academic partner),P2 manual review 2026-09-28
+P-162,R-for065,for065,IIT Guwahati (via Simplilearn),re-levelled to program,IIT Guwahati program delivered by Simplilearn (academic partner),P2 manual review 2026-09-28
+O-111,R-reg001,reg001,IndiaAI FutureSkills,re-levelled to initiative,IndiaAI FutureSkills is a mission pillar delivered via several platforms,P2 manual review 2026-09-28
+P-185,R-reg003,reg003,YUVA AI for ALL,re-levelled to program,YUVA AI for ALL is hosted on FutureSkills Prime,P2 manual review 2026-09-28
+P-191,R-reg005,reg005,SOAR - Skilling for AI Readiness,re-levelled to program,SOAR is delivered via Skill India Digital Hub,P2 manual review 2026-09-28
+O-167,R-reg012,reg012,Microsoft ADVANTA(I)GE India,re-levelled to initiative,"ADVANTA(I)GE India is a national skilling initiative, not a platform",P2 manual review 2026-09-28
+G-067,R-reg013,reg013,AWS AI Ready (India),merge,India instance of the same AWS AI Ready pledge,P2 manual review 2026-09-28
+P-009,R-reg015,reg015,OpenAI Academy India,re-levelled to program,OpenAI Academy India is a country instance of OpenAI Academy,P2 manual review 2026-09-28
+O-018,R-reg016,reg016,Google AI Plus free for Indian students,re-levelled to initiative,Free Google AI Plus for Indian students is a product-access initiative (adjacent),P2 manual review 2026-09-28
+P-141,R-reg021,reg021,Great Learning Academy,re-levelled to program,Great Learning Academy is the free tier of Great Learning,P2 manual review 2026-09-28
+P-175,R-reg022,reg022,upGrad,merge,upGrad found by two slices,P2 manual review 2026-09-28
+P-160,R-reg023,reg023,Scaler,merge,Scaler found by two slices,P2 manual review 2026-09-28
+P-162,R-reg024,reg024,Simplilearn,merge,Simplilearn found by three slices,P2 manual review 2026-09-28
+O-193,R-reg030,reg030,Pratham x Anthropic Anytime Testing Machine,re-levelled to initiative,Pratham x Anthropic assessment tool is an NGO programme with a lab partner,P2 manual review 2026-09-28
+P-181,R-reg034,reg034,AI Singapore - AI Apprenticeship Programme,re-levelled to program,AIAP is an AI Singapore program,P2 manual review 2026-09-28
+P-181,R-reg035,reg035,AI Singapore - AI for Everyone,re-levelled to program,AI4E is an AI Singapore program,P2 manual review 2026-09-28
+P-184,R-reg045,reg045,AI Talent Factory (AITF),re-levelled to program,AI Talent Factory is run under the Digital Talent Scholarship,P2 manual review 2026-09-28
+O-167,R-reg047,reg047,elevAIte Indonesia,re-levelled to initiative,elevAIte Indonesia is a Microsoft-led national skilling initiative with Komdigi,P2 manual review 2026-09-28
+P-222,R-reg051,reg051,DepEd AI Literacy Program / AI Ready ASEAN Philippines,re-levelled to program,Philippines instance of AI Ready ASEAN with DepEd,P2 manual review 2026-09-28
+P-222,R-reg052,reg052,Break The Fake Movement,re-levelled to program,Break The Fake Movement is a local implementing partner of AI Ready ASEAN,P2 manual review 2026-09-28
+G-071,R-reg054,reg054,Microsoft Elevate - Hour of AI Thailand,re-levelled to program,Hour of AI Thailand is a country instance of Microsoft Elevate,P2 manual review 2026-09-28
+O-018,R-reg056,reg056,Google Gemini student learning tool - Kenya,re-levelled to initiative,Gemini learning tool rollout in Kenya is a product-access initiative (adjacent),P2 manual review 2026-09-28
+P-305,R-ven002,ven002,Azure AI App and Agent Developer Associate (AI-103),re-levelled to program,Azure AI certification is a program on Microsoft Learn,P2 manual review 2026-09-28
+P-305,R-ven003,ven003,Microsoft AI Skills Fest,re-levelled to program,AI Skills Fest is a Microsoft Learn event program,P2 manual review 2026-09-28
+O-167,R-ven004,ven004,Microsoft Elevate,re-levelled to initiative,Microsoft Elevate is a skilling commitment delivered across several Microsoft platforms,P2 manual review 2026-09-28
+P-150,R-ven005,ven005,LinkedIn Learning,merge,LinkedIn Learning found by two slices,P2 manual review 2026-09-28
+O-020,R-ven007,ven007,AWS AI Ready,re-levelled to initiative,AWS AI Ready is a skilling pledge delivered via Skill Builder and partners,P2 manual review 2026-09-28
+P-294,R-ven008,ven008,AWS Certified Generative AI Developer - Professional,re-levelled to program,AWS certification program on Skill Builder,P2 manual review 2026-09-28
+P-298,R-ven010,ven010,Google Cloud Skills Boost,merge,"Google Cloud Skills Boost was renamed Google Skills (Oct 2025) — rebrand, alias kept",P2 manual review 2026-09-28
+P-298,R-ven011,ven011,Google AI Essentials,re-levelled to program,"Google AI Essentials; creator Google, also hosted on Coursera",P2 manual review 2026-09-28
+O-018,R-ven012,ven012,Google.org AI Opportunity Fund,re-levelled to initiative,Google.org AI Opportunity Fund is a philanthropic funding initiative,P2 manual review 2026-09-28
+P-009,R-ven016,ven016,OpenAI Certifications,re-levelled to program,OpenAI Certifications are offered via OpenAI Academy,P2 manual review 2026-09-28
+P-305,R-ven035,ven035,GitHub Copilot Certification (GH-300),re-levelled to program,GH-300 exam is delivered via Microsoft Learn (creator GitHub),P2 manual review 2026-09-28
+P-130,R-ven039,ven039,DeepLearning.AI,merge,DeepLearning.AI found by two slices,P2 manual review 2026-09-28
+P-076,R-ven049,ven049,Class Central,merge,Class Central found by three slices,P2 manual review 2026-09-28

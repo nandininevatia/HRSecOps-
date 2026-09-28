@@ -1,0 +1,62 @@
+query,date,engine,batch_no,pass,new_entities_count,new_entities
+best AI YouTube channels to learn AI 2026,2026-09-28,WebSearch,1,G,10,3Blue1Brown;codebasics;Krish Naik;DeepLearningAI;Two Minute Papers;Matt Wolfe;The AI Advantage;AI Explained;CodeWithHarry;AssemblyAI;sentdex
+top YouTube channels learn machine learning LLMs 2025 list,2026-09-28,WebSearch,1,G,10,Tina Huang;How I AI;Skill Leap AI;Wes Roth;Dwarkesh Patel;Siraj Raval;AI Foundations;Alex Finn;StatQuest;Yannic Kilcher;iNeuron;Matthew Berman
+Andrej Karpathy YouTube subscribers Zero to Hero 2025,2026-09-28,WebSearch,1,G,2,Andrej Karpathy;Umar Jamil
+3Blue1Brown neural networks series subscribers socialblade,2026-09-28,WebSearch,1,G,0,(metric for 3Blue1Brown)
+Krish Naik CampusX codebasics YouTube AI India subscribers 2025,2026-09-28,WebSearch,1,G,2,CampusX;Kaggle community
+github.com/karpathy/nanoGPT,2026-09-28,WebFetch,2,G,1,nanoGPT
+github.com/rasbt/LLMs-from-scratch,2026-09-28,WebFetch,2,G,1,LLMs-from-scratch
+github.com/mlabonne/llm-course,2026-09-28,WebFetch,2,G,1,llm-course
+github.com/microsoft/generative-ai-for-beginners,2026-09-28,WebFetch,2,G,1,Generative AI for Beginners
+github.com/microsoft/ai-agents-for-beginners,2026-09-28,WebFetch,2,G,1,AI Agents for Beginners
+github.com/dair-ai/Prompt-Engineering-Guide,2026-09-28,WebFetch,3,G,1,Prompt Engineering Guide
+github.com/openai/openai-cookbook,2026-09-28,WebFetch,3,G,1,OpenAI Cookbook
+github.com/anthropics/courses,2026-09-28,WebFetch,3,G,1,Anthropic Courses
+github.com/anthropics/claude-cookbooks,2026-09-28,WebFetch,3,G,1,Claude Cookbooks
+github.com/microsoft/ML-For-Beginners,2026-09-28,WebFetch,3,G,1,ML-For-Beginners
+github.com/GokuMohandas/Made-With-ML,2026-09-28,WebFetch,4,G,1,Made With ML
+github.com/d2l-ai/d2l-en,2026-09-28,WebFetch,4,G,1,d2l.ai
+github.com/Hannibal046/Awesome-LLM,2026-09-28,WebFetch,4,G,1,Awesome-LLM
+github.com/karpathy/nanochat,2026-09-28,WebFetch,4,G,1,nanochat
+github.com/Shubhamsaboo/awesome-llm-apps,2026-09-28,WebFetch,4,G,1,awesome-llm-apps
+top AI GitHub repos to learn LLMs 2025 beginners,2026-09-28,WebSearch,5,H,2,LLM Zoomcamp;labml annotated implementations
+best GitHub repositories learn AI agents 2026 free course,2026-09-28,WebSearch,5,H,3,GenAI_Agents;free-ai-agents-resources;awesome-ai-agents-2026(not recorded)
+github.com/decodingml/llm-twin-course,2026-09-28,WebFetch,5,G,1,LLM Twin Course
+github.com/huggingface/agents-course,2026-09-28,WebFetch,5,G,1,HF Agents Course
+github.com/fastai/fastbook,2026-09-28,WebFetch,5,G,1,fastbook
+github.com/DataTalksClub/llm-zoomcamp,2026-09-28,WebFetch,6,G,0,(metric)
+github.com/NirDiamant/GenAI_Agents,2026-09-28,WebFetch,6,G,0,(metric)
+github.com/labmlai/annotated_deep_learning_paper_implementations,2026-09-28,WebFetch,6,G,0,(metric)
+github.com/DataTalksClub/machine-learning-zoomcamp,2026-09-28,WebFetch,6,G,1,ML Zoomcamp
+github.com/NirDiamant/RAG_Techniques,2026-09-28,WebFetch,6,G,1,RAG_Techniques
+github.com/HandsOnLLM/Hands-On-Large-Language-Models,2026-09-28,WebFetch,7,G,1,Hands-On LLMs
+github.com/chiphuyen/aie-book,2026-09-28,WebFetch,7,G,1,AI Engineering
+github.com/microsoft/mcp-for-beginners,2026-09-28,WebFetch,7,G,1,MCP for Beginners
+github.com/patchy631/ai-engineering-hub,2026-09-28,WebFetch,7,G,1,AI Engineering Hub
+github.com/google-gemini/cookbook,2026-09-28,WebFetch,7,G,1,Gemini Cookbook
+github.com/microsoft/AI-For-Beginners,2026-09-28,WebFetch,8,G,1,AI-For-Beginners
+github.com/karpathy/LLM101n,2026-09-28,WebFetch,8,G,1,LLM101n/Eureka Labs
+github.com/kamranahmedse/developer-roadmap,2026-09-28,WebFetch,8,G,1,roadmap.sh
+github.com/rasbt/reasoning-from-scratch,2026-09-28,WebFetch,8,G,1,reasoning-from-scratch
+github.com/karpathy/micrograd,2026-09-28,WebFetch,8,G,1,micrograd
+youtube.com/@AndrejKarpathy; socialblade 3blue1brown,2026-09-28,WebFetch,9,G,0,EGRESS BLOCKED
+techshark/digitalocean/learnwithpath/analyticsvidhya/theaddoctor list pages,2026-09-28,WebFetch,9,H,0,EGRESS BLOCKED
+StatQuest Josh Starmer YouTube subscribers 2025,2026-09-28,WebSearch,10,G,0,(metric)
+Two Minute Papers Yannic Kilcher Welch Labs YouTube AI channel subscribers,2026-09-28,WebSearch,10,G,1,Welch Labs
+Matt Wolfe Matthew Berman AI Explained YouTube subscribers 2026,2026-09-28,WebSearch,10,G,1,Feedspot list
+Nate Herk AI Automation YouTube Skool community members 2026,2026-09-28,WebSearch,10,G,1,AI Automation Society
+Tina Huang Jeff Su AI YouTube channel productivity learn AI 2025,2026-09-28,WebSearch,10,G,2,Jeff Su;Class Central
+Fireship freeCodeCamp YouTube subscribers AI courses 2026,2026-09-28,WebSearch,11,G,2,Fireship;freeCodeCamp
+Dave Ebbelaar Sam Witteveen / Umar Jamil MLST / IBM Technology / AI Advantage (4 queries),2026-09-28,WebSearch,11,G,0,NOT RUN - session WebSearch budget (200) exhausted
+reddit/wikipedia/promptingguide.ai,2026-09-28,WebFetch,12,I,0,EGRESS BLOCKED
+github.com/avinash201199/free-ai-agents-resources,2026-09-28,WebFetch,12,H,14,Cole Medin;1littlecoder;Sam Witteveen;r/AI_Agents;r/MachineLearning;r/LocalLLaMA;r/learnmachinelearning;HF Discord;LangChain Discord;CrewAI Discord;OpenAI Dev Community;AIMA;Papers with Code
+github.com/topics/ai-newsletter,2026-09-28,WebFetch,12,H,1,awesome-ai-newsletters
+github.com/huggingface/course,2026-09-28,WebFetch,12,G,1,HF Course
+github.com/alternbits/awesome-ai-newsletters,2026-09-28,WebFetch,13,H,13,Superhuman;The Neuron;Import AI;Turing Post;AI Breakfast;There's an AI Newsletter;AI Tool Report;Techpresso;ML Engineer Newsletter;Data Elixir;DiamantAI;LLMs Research;AI Weekly
+github.com/topics/ai-podcast,2026-09-28,WebFetch,13,H,0,(only podcast-generation tools; out of scope)
+github.com/topics/ai-youtube-channels,2026-09-28,WebFetch,13,H,0,(empty topic)
+github.com/anthropics/prompt-eng-interactive-tutorial,2026-09-28,WebFetch,14,G,1,Anthropic prompt tutorial
+github.com/f/awesome-chatgpt-prompts,2026-09-28,WebFetch,14,G,1,prompts.chat
+github.com/microsoft/Data-Science-For-Beginners,2026-09-28,WebFetch,14,G,1,DS-For-Beginners
+github.com/fastai/course22,2026-09-28,WebFetch,14,G,1,fast.ai course22
+github.com/NirDiamant/Prompt_Engineering,2026-09-28,WebFetch,14,G,1,Prompt_Engineering

@@ -1,0 +1,7 @@
+category,batches_run,last3_batches_new_counts,saturated(Y/N),note
+AI-native learning (all Part 1 subsegments),7,5|8|6,N,"Every batch added >=4 new in-scope entities; saturation not reached. Stopped because session WebSearch budget (200) exhausted, not by saturation rule."
+General-assistant learning modes (OpenAI/Anthropic/Google),1 (+B7),5|0|1,N,Core 3 labs covered; Microsoft Copilot learning features not checked.
+Coding tutors,2,5|4|0,N,"Unchecked: Replit, Cursor learning, Exercism AI (none found), Coddy, Imagi, Codecademy beyond assistant."
+AI roleplay / interview prep,1,8,N,"Unchecked: Interviewing.io AI, Pramp, Second Nature, Rehearsal."
+App-store AI learning apps (PROXY ratings),0 dedicated,n/a,N,"No store-page ratings observed (WebFetch blocked; snippets gave none). Unchecked: Coddy, Learna, Imagi, Easy Peasy AI, AI Academy apps."
+Pass E authoritative reports,1 partial,0,N,"Stanford AI Index, Coursera GSR/JSR, LinkedIn WLR, WEF FoJ 2025, Microsoft WTI, OECD, UNESCO, McKinsey, BCG, PwC, GitHub Octoverse, SO Survey NOT mined - search budget exhausted and WebFetch egress-blocked."

@@ -1,0 +1,50 @@
+query,date,engine,batch_no,pass,new_entities_count,new_entities
+ChatGPT study mode launch 2025,2026-09-28,WebSearch,1,P1-PartA,1,ChatGPT Study Mode
+Claude for Education learning mode launch,2026-09-28,WebSearch,1,P1-PartA,1,Claude Learning mode
+Gemini Guided Learning launch 2025 LearnLM,2026-09-28,WebSearch,1,P1-PartA,2,Gemini Guided Learning; LearnLM
+Coursera Coach AI tutor 2025 learners,2026-09-28,WebSearch,1,P1-PartA,1,Coursera Coach
+Khanmigo 2025 2026 users districts,2026-09-28,WebSearch,1,P1-PartA,1,Khanmigo
+Udemy AI Assistant AI-powered role play launch 2025,2026-09-28,WebSearch,2,P1-PartA,1,Udemy Role Play
+DataCamp AI assistant AI-native courses 2025,2026-09-28,WebSearch,2,P1-PartA,1,DataCamp AI-native (Optima)
+Codecademy AI learning assistant features 2025,2026-09-28,WebSearch,2,P1-PartA,1,Codecademy AI Learning Assistant
+Synthesis Tutor AI math tutor 2025,2026-09-28,WebSearch,2,P1-PartA,1,Synthesis Tutor
+Oboe AI learning app launch courses,2026-09-28,WebSearch,2,P1-PartA,1,Oboe
+"Google ""Learn Your Way"" AI textbook experiment",2026-09-28,WebSearch,3,P1-PartA,1,Learn Your Way
+Tutor CoPilot Stanford study results,2026-09-28,WebSearch,3,P1-PartA,1,Tutor CoPilot
+Squirrel AI adaptive learning 2025,2026-09-28,WebSearch,3,P1-PartA,1,Squirrel AI
+Physics Wallah AI Guru launch,2026-09-28,WebSearch,3,P1-PartA,1,PW Alakh AI/AI Guru
+CS50 duck AI tutor Harvard students,2026-09-28,WebSearch,3,P1-PartA,1,CS50 Duck
+Uplimit AI-powered learning platform funding 2025,2026-09-28,WebSearch,4,P1-PartA,1,Uplimit
+Sana Labs acquired Workday learning 2025,2026-09-28,WebSearch,4,P1-PartA,1,Sana
+Mindsmith AI eLearning authoring 2025,2026-09-28,WebSearch,4,P1-PartA,1,Mindsmith
+Arist AI microlearning Slack Teams 2025,2026-09-28,WebSearch,4,P1-PartA,1,Arist
+Disco AI learning platform cohort 2025,2026-09-28,WebSearch,4,P1-PartA,1,Disco
+Boot.dev Boots AI tutor learn backend,2026-09-28,WebSearch,5,P1-PartA,1,Boot.dev
+Scrimba AI engineer path AI tutor 2025,2026-09-28,WebSearch,5,P1-PartA,1,Scrimba (adjacent)
+Exercism AI feedback mentoring 2025,2026-09-28,WebSearch,5,P1-PartA,0,
+Sololearn AI coding app 2025 vibe coding learn,2026-09-28,WebSearch,5,P1-PartA,1,Sololearn Kodie
+Mimo AI app learn coding AI 2025,2026-09-28,WebSearch,5,P1-PartA,1,Mimo
+Yoodli AI roleplay coaching funding 2025,2026-09-28,WebSearch,6,P1-PartA,1,Yoodli
+Final Round AI interview copilot users 2025,2026-09-28,WebSearch,6,P1-PartA,1,Final Round AI
+AI roleplay simulation training platform raises 2025 soft skills,2026-09-28,WebSearch,6,P1-PartA,4,Virti; VirtualSpeech; SmartWinnr; Uptale
+Praktika AI language tutor avatar funding,2026-09-28,WebSearch,6,P1-PartA,1,Praktika
+Speak app AI tutor funding valuation 2024 2025,2026-09-28,WebSearch,6,P1-PartA,1,Speak
+AI tutor startup raises Series A 2026,2026-09-28,WebSearch,7,P1-PartA,2,Wild Zebra; Nectir
+AI-native learning platform launches 2026 personalized courses,2026-09-28,WebSearch,7,P1-PartA,1,Coursera Project Helix
+NotebookLM flashcards quizzes learning tools launch students,2026-09-28,WebSearch,7,P1-PartA,1,NotebookLM
+Duolingo Max video call subscribers 2025 AI first,2026-09-28,WebSearch,7,P1-PartA,1,Duolingo Max
+Brilliant app AI interactive learning 2025 funding,2026-09-28,WebSearch,7,P1-PartA,1,Brilliant (adjacent)
+Coursera Udemy merger completed 2026,2026-09-28,WebSearch,8,P1-PassE,0,(datapoints only: merger completion)
+Coursera Global Skills Report 2025 GenAI enrollments per minute,2026-09-28,WebSearch,9,P1-PassE,0,NOT EXECUTED - session WebSearch budget exhausted (200/200)
+Coursera Job Skills Report 2026 GenAI enrollments growth,2026-09-28,WebSearch,9,P1-PassE,0,NOT EXECUTED - session WebSearch budget exhausted (200/200)
+Stanford AI Index 2026 education chapter findings,2026-09-28,WebSearch,9,P1-PassE,0,NOT EXECUTED - session WebSearch budget exhausted (200/200)
+Stanford AI Index 2025 education K-12 computer science teachers AI,2026-09-28,WebSearch,9,P1-PassE,0,NOT EXECUTED - session WebSearch budget exhausted (200/200)
+LinkedIn Workplace Learning Report 2025 AI findings,2026-09-28,WebSearch,9,P1-PassE,0,NOT EXECUTED - session WebSearch budget exhausted (200/200)
+WebFetch: investor.coursera.com (Project Helix PR),2026-09-28,WebFetch,-,P1-verify,0,EGRESS_BLOCKED by proxy
+WebFetch: finance.yahoo.com (Project Helix),2026-09-28,WebFetch,-,P1-verify,0,EGRESS_BLOCKED by proxy
+WebFetch: sec.gov (Coursera 10-Q Q2 2026),2026-09-28,WebFetch,-,P1-verify,0,EGRESS_BLOCKED by proxy
+WebFetch: insidehighered.com,2026-09-28,WebFetch,-,P1-verify,0,EGRESS_BLOCKED by proxy
+WebFetch: classcentral.com,2026-09-28,WebFetch,-,P1-verify,0,EGRESS_BLOCKED by proxy
+WebFetch: axios.com,2026-09-28,WebFetch,-,P1-verify,0,EGRESS_BLOCKED by proxy
+WebFetch: blog.udemy.com,2026-09-28,WebFetch,-,P1-verify,0,EGRESS_BLOCKED by proxy
+WebFetch: openai.com,2026-09-28,WebFetch,-,P1-verify,0,EGRESS_BLOCKED by proxy

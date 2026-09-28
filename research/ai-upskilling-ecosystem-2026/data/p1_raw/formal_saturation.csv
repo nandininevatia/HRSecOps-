@@ -1,0 +1,8 @@
+category,batches_run,last3_batches_new_counts,saturated(Y/N),note
+MOOCs / course marketplaces,3,"(seed-confirmation batches 1,3,6)",N,"Seeds confirmed; M&A verified (Coursera–Udemy closed 2026-05-11). Discovery beyond seeds not run (e.g., FutureLearn, Alison, Swayam) due to search budget."
+Bootcamps,3,5;4;6,N,"Still yielding new entities (Springboard, TripleTen, Le Wagon, Turing College, IK, Fullstack, Flatiron, Nucamp, ZTM). Not saturated."
+Executive education (AI strategy),2,4;0(not run),N,"Wharton, HBS, Berkeley, Kelley, MIT xPRO, Imperial seen; Oxford Saïd, INSEAD, Kellogg, MIT Sloan, LSE, IIMs, Columbia, Cambridge Judge NOT searched (budget exhausted)."
+Online master's in AI,1,6,N,"Only one batch; UT Austin MSAI, CU Boulder MS-AI on Coursera, Penn MSE-AI etc. not checked."
+Cohort-based platforms,1,2,N,"Maven, Reforge, Section seen; AI Makerspace, Outskill, Growth School, Uplimit not searched."
+Professional-certificate / univ-partner platforms (India/global),2,4;3,N,"Simplilearn, Great Learning, Emeritus, upGrad, Scaler seen."
+Career-transition / apprenticeship,1,1,N,Multiverse only; others not searched.

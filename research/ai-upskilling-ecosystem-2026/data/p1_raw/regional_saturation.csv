@@ -1,0 +1,10 @@
+category,batches_run,last3_batches_new_counts,saturated(Y/N),note
+India,4,8;11;(n/a - only 4 batches),N,"Still yielding 5-11 new per batch; stopped by session search budget, not saturation"
+Southeast Asia,2,11;13,N,2 batches run; 3rd batch blocked by search budget. Vietnam/Philippines/Thailand thin
+East Asia,0,,N,Not searched: WebSearch budget (200/session) exhausted; WebFetch egress blocked
+Europe,0,,N,Not searched (budget exhausted; elementsofai.com and ki-campus.org fetch blocked)
+Middle East,0,,N,Not searched
+Africa,0,,N,Not searched; 1 incidental entity
+Latin America,0,,N,Not searched
+Global nonprofits / K-12,0,,N,"Not searched (code.org, experience-ai.org fetch blocked)"
+North America (US gov),0,,N,Not searched (whitehouse.gov fetch blocked)

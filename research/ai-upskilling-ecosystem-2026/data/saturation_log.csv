@@ -1,0 +1,46 @@
+slice,category,batches_run,last3_batches_new_counts,saturated(Y/N),note
+ainative,AI-native learning (all Part 1 subsegments),7,5|8|6,N,"Every batch added >=4 new in-scope entities; saturation not reached. Stopped because session WebSearch budget (200) exhausted, not by saturation rule."
+ainative,General-assistant learning modes (OpenAI/Anthropic/Google),1 (+B7),5|0|1,N,Core 3 labs covered; Microsoft Copilot learning features not checked.
+ainative,Coding tutors,2,5|4|0,N,"Unchecked: Replit, Cursor learning, Exercism AI (none found), Coddy, Imagi, Codecademy beyond assistant."
+ainative,AI roleplay / interview prep,1,8,N,"Unchecked: Interviewing.io AI, Pramp, Second Nature, Rehearsal."
+ainative,App-store AI learning apps (PROXY ratings),0 dedicated,n/a,N,"No store-page ratings observed (WebFetch blocked; snippets gave none). Unchecked: Coddy, Learna, Imagi, Easy Peasy AI, AI Academy apps."
+ainative,Pass E authoritative reports,1 partial,0,N,"Stanford AI Index, Coursera GSR/JSR, LinkedIn WLR, WEF FoJ 2025, Microsoft WTI, OECD, UNESCO, McKinsey, BCG, PwC, GitHub Octoverse, SO Survey NOT mined - search budget exhausted and WebFetch egress-blocked."
+creator,YouTube,4,9;7;2,N,"Stopped by WebSearch budget exhaustion + youtube/socialblade egress block, not saturation. Unchecked: Dave Ebbelaar, IBM Technology, MLST, Welch Labs counts."
+creator,GitHub repo,9,5;5;5,N,Every batch still adds ~5 in-scope repos; long tail large. Stars read directly from github.com pages 2026-09-28.
+creator,Newsletter,1,13,N,"Existence only from GitHub awesome list; no subscriber counts (Substack/beehiiv blocked, no search budget). Rundown AI, Ben's Bites, TLDR AI, The Batch, AlphaSignal, One Useful Thing, Interconnects, Ahead of AI, The Sequence NOT verified."
+creator,Podcast,0,0,N,No podcast search run before budget exhausted; only Dwarkesh surfaced incidentally.
+creator,Community,1,10,N,From GitHub resource hub + Skool search; member counts only for AI Automation Society.
+creator,Book/Documentation,2,3;4,N,Via book code repos on GitHub.
+creator,Directory/curation,1,6,N,
+creator,Reddit sentiment (Pass I),0,0,N,reddit.com blocked; no search budget.
+enterprise,Enterprise (LMS/LXP/skills platforms),"4 (b1,b2,b6,b7)",6;4;(b8 partial 3),N,"Rule not met; catalogue seed names mostly confirmed. EdCast, SAP SuccessFactors Learning, Eduflow not searched."
+enterprise,AI-adoption/AI-literacy training companies,"3 (b1,b2,b3)",20;3;22,N,"Still yielding many low-tier vendors; Growth Tribe, Pathstream, Andela, BrainStation, Emeritus Ent., General Assembly Ent., Google AI Essentials not searched."
+enterprise,Consulting academy,"2 (b4,b5)",8;6,N,"EY, IBM Consulting, Infosys Wingspan not verified."
+enterprise,Digital adoption,1 (b9 part),4,N,Only one batch.
+enterprise,Credential/skills-benchmarking,1 (b9 part),4,N,"Lightcast, Degreed skills not separately searched."
+enterprise,Apprenticeship,1 (b2 part),1,N,"Cambridge Spark, QA, US apprenticeships not searched."
+enterprise,Professional body,1 (b10) - not executed,0,N,All pass-D queries blocked by exhausted search budget; only IAPP AIGP seen indirectly.
+enterprise,M&A (pass H),"2 (b6,b8)",6;9,N,Good coverage of headline deals; Q1-Q4 2025 Training Industry roundups not fetchable.
+formal,MOOCs / course marketplaces,3,"(seed-confirmation batches 1,3,6)",N,"Seeds confirmed; M&A verified (Coursera–Udemy closed 2026-05-11). Discovery beyond seeds not run (e.g., FutureLearn, Alison, Swayam) due to search budget."
+formal,Bootcamps,3,5;4;6,N,"Still yielding new entities (Springboard, TripleTen, Le Wagon, Turing College, IK, Fullstack, Flatiron, Nucamp, ZTM). Not saturated."
+formal,Executive education (AI strategy),2,4;0(not run),N,"Wharton, HBS, Berkeley, Kelley, MIT xPRO, Imperial seen; Oxford Saïd, INSEAD, Kellogg, MIT Sloan, LSE, IIMs, Columbia, Cambridge Judge NOT searched (budget exhausted)."
+formal,Online master's in AI,1,6,N,"Only one batch; UT Austin MSAI, CU Boulder MS-AI on Coursera, Penn MSE-AI etc. not checked."
+formal,Cohort-based platforms,1,2,N,"Maven, Reforge, Section seen; AI Makerspace, Outskill, Growth School, Uplimit not searched."
+formal,Professional-certificate / univ-partner platforms (India/global),2,4;3,N,"Simplilearn, Great Learning, Emeritus, upGrad, Scaler seen."
+formal,Career-transition / apprenticeship,1,1,N,Multiverse only; others not searched.
+regional,India,4,8;11;(n/a - only 4 batches),N,"Still yielding 5-11 new per batch; stopped by session search budget, not saturation"
+regional,Southeast Asia,2,11;13,N,2 batches run; 3rd batch blocked by search budget. Vietnam/Philippines/Thailand thin
+regional,East Asia,0,,N,Not searched: WebSearch budget (200/session) exhausted; WebFetch egress blocked
+regional,Europe,0,,N,Not searched (budget exhausted; elementsofai.com and ki-campus.org fetch blocked)
+regional,Middle East,0,,N,Not searched
+regional,Africa,0,,N,Not searched; 1 incidental entity
+regional,Latin America,0,,N,Not searched
+regional,Global nonprofits / K-12,0,,N,"Not searched (code.org, experience-ai.org fetch blocked)"
+regional,North America (US gov),0,,N,Not searched (whitehouse.gov fetch blocked)
+vendor,Vendor academy (hyperscaler/cloud/data/enterprise SaaS),6,8;6;6,N,"Still yielding 6+ new per batch when session WebSearch budget (200 calls, shared) ran out. Unsearched seeds: Workday, Canva, Notion, Intel, AMD, Apple, Zapier Academy, GitHub Skills, Pinecone, LlamaIndex, CrewAI."
+vendor,AI-lab developer program,3,5;5;6,N,OpenAI/Anthropic/DeepMind/Meta/Mistral/Cohere confirmed; Perplexity found only third-party courses (dead end).
+vendor,Credential/skills-benchmarking,1,0;0;0,N,Batch 8 not executed (budget exhausted); WebFetch to iapp.org/isaca.org/comptia.org/pmi.org egress-blocked. Only Credly and ETS seen incidentally. Needs a re-run.
+vendor,Interactive labs/sandboxes,0,,N,Not searched (budget). Qwiklabs now inside Google Skills labs; no other evidence gathered.
+vendor,Public-private skilling pledges,2,6;2;0,N,"Microsoft Elevate, OpenAI 10M, AWS AI Ready, IBM 2M, ServiceNow 3M, Cisco 25M, Databricks $100M, Google.org/Goodwill captured; pass H incomplete."
+vendor,AI-coding-tool learning,2,1;3,N,"Cursor Learn, Replit Learn, GH-300 found; Lovable no official academy seen."
+vendor,Automation/no-code academies,1,2,N,"n8n, Make found; Zapier academy not confirmed."

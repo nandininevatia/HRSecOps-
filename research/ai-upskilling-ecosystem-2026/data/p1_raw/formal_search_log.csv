@@ -1,0 +1,56 @@
+query,date,engine,batch_no,pass,new_entities_count,new_entities
+Coursera Udemy merger 2026,2026-09-28,WebSearch,1,A,3,Coursera;Udemy;Course Report
+best AI learning platforms 2026,2026-09-28,WebSearch,1,A,1,(enterprise LMS only - out of slice)
+AI bootcamp 2026,2026-09-28,WebSearch,1,A,5,TripleTen;Dataquest;ODSC;NACE;Course Report
+executive education AI strategy program 2026,2026-09-28,WebSearch,1,A,4,Kelley;Wharton;HBS ExEd;UC Berkeley ExecEd;DigitalDefynd
+online master's in artificial intelligence 2026,2026-09-28,WebSearch,1,A,7,ASU W. P. Carey;JHU EP;CMU;Georgia Tech OMSCS;UIUC MCS;UNM
+[fetch] coursereport best AI bootcamps,2026-09-28,WebFetch,2,H,0,blocked
+[fetch] tripleten best AI bootcamp,2026-09-28,WebFetch,2,H,0,blocked
+[fetch] digitaldefynd AI exec ed,2026-09-28,WebFetch,2,H,0,blocked
+[fetch] Coursera IR completion PR,2026-09-28,WebFetch,2,H,0,blocked
+2U edX 2025 bankruptcy emergence owner edX status 2026,2026-09-28,WebSearch,2,H,2,2U;edX
+edX 2026 news AI courses 2U,2026-09-28,WebSearch,3,H,2,CodeSignal;Microsoft CxO Edge
+Skillsoft Codecademy 2026 sale,2026-09-28,WebSearch,3,H,2,Codecademy;Skillsoft
+Pluralsight 2025 2026 AI skills acquisition news,2026-09-28,WebSearch,3,H,1,Pluralsight
+Udacity Accenture 2025 AI courses,2026-09-28,WebSearch,3,H,3,Udacity;Woolf;Accenture LearnVantage
+DataCamp learners AI 2026,2026-09-28,WebSearch,3,H,1,DataCamp
+DeepLearning.AI short courses learners 2026,2026-09-28,WebSearch,4,A,2,DeepLearning.AI;Class Central
+Maven cohort-based AI courses 2026,2026-09-28,WebSearch,4,A,2,Maven;GenAICoursePath
+Reforge AI product management course 2025,2026-09-28,WebSearch,4,A,1,Reforge
+Simplilearn generative AI program 2026 learners,2026-09-28,WebSearch,4,A,4,Simplilearn;Duke ExecEd;UCSB PCE;IIT Guwahati
+Great Learning AI programs 2026 learners,2026-09-28,WebSearch,4,A,2,Great Learning;UT Austin McCombs
+Emeritus AI programs 2026 news,2026-09-28,WebSearch,5,A,3,Emeritus;Imperial ExecEd;AIM
+General Assembly AI academy 2026,2026-09-28,WebSearch,5,A,1,General Assembly
+Multiverse AI apprenticeship 2026 learners,2026-09-28,WebSearch,5,A,1,Multiverse
+upGrad AI courses 2026 acquisition,2026-09-28,WebSearch,5,A,2,upGrad;Unacademy
+Section AI proficiency course Scott Galloway 2025,2026-09-28,WebSearch,5,A,2,Section;BSI Digital Learning
+Scaler AI machine learning program 2026,2026-09-28,WebSearch,6,A,2,Scaler;IIT Roorkee
+LinkedIn Learning AI courses learners 2025 2026,2026-09-28,WebSearch,6,A,2,LinkedIn Learning;Research.com
+O'Reilly learning platform AI Academy 2026,2026-09-28,WebSearch,6,A,1,O'Reilly
+fast.ai practical deep learning course 2025 solveit,2026-09-28,WebSearch,6,A,2,fast.ai;MIT OCW
+Codecademy freeCodeCamp Brilliant AI course 2026,2026-09-28,WebSearch,6,A,3,freeCodeCamp;Scrimba;FreeAcademy.ai
+MIT xPRO AI program 2026,2026-09-28,WebSearch,7,A,1,MIT xPRO
+Stanford Online AI professional certificate 2026,2026-09-28,WebSearch,7,A,1,Stanford Online
+Harvard CS50 AI with Python 2025 enrollment,2026-09-28,WebSearch,7,A,1,Harvard CS50 AI
+Brilliant.org AI course how LLMs work 2025,2026-09-28,WebSearch,7,A,1,Brilliant
+Dataquest AI engineer path 2026,2026-09-28,WebSearch,7,A,0,
+best AI engineering bootcamps 2026 Springboard TripleTen Le Wagon,2026-09-28,WebSearch,8,D,2,Springboard;Le Wagon
+Interview Kickstart applied AI program 2026,2026-09-28,WebSearch,8,D,1,Interview Kickstart
+Le Wagon AI software development bootcamp 2026,2026-09-28,WebSearch,8,D,1,
+Turing College AI engineering program,2026-09-28,WebSearch,8,D,3,Turing College;Career Karma;SwitchUp
+machine learning bootcamp career change 2026 review,2026-09-28,WebSearch,8,D,3,Fullstack Academy;Metis;Nucamp
+Nucamp AI essentials bootcamp 2026,2026-09-28,WebSearch,9,C,0,
+Flatiron School AI 2025 2026 bootcamp,2026-09-28,WebSearch,9,C,3,Flatiron School;SMU Online;BrainStation
+Zero To Mastery AI engineering career path 2026,2026-09-28,WebSearch,9,C,1,Zero To Mastery
+Fullstack Academy AI machine learning bootcamp university partner 2026,2026-09-28,WebSearch,9,C,1,University of San Diego bootcamp
+WorldQuant University free AI lab 2025,2026-09-28,WebSearch,9,C,1,WorldQuant University
+Oxford Saïd Business School AI programme online 2026,2026-09-28,WebSearch,10,A,0,NOT RUN - session WebSearch budget exhausted
+INSEAD artificial intelligence executive programme 2026,2026-09-28,WebSearch,10,A,0,NOT RUN - session WebSearch budget exhausted
+Kellogg Executive Education AI applications for growth 2026,2026-09-28,WebSearch,10,A,0,NOT RUN - session WebSearch budget exhausted
+MIT Sloan Executive Education artificial intelligence business strategy online 2026,2026-09-28,WebSearch,10,A,0,NOT RUN - session WebSearch budget exhausted
+IIM executive programme AI for business leaders 2026,2026-09-28,WebSearch,10,A,0,NOT RUN - session WebSearch budget exhausted
+[fetch] dataquest best AI bootcamps,2026-09-28,WebFetch,11,C,0,blocked
+[fetch] nucamp top 10 AI bootcamps,2026-09-28,WebFetch,11,C,0,blocked
+[fetch] mastersinai online AI masters,2026-09-28,WebFetch,11,C,0,blocked
+[fetch] aibmag top AI exec ed,2026-09-28,WebFetch,11,C,0,blocked
+[fetch] productcompass Maven courses,2026-09-28,WebFetch,11,C,0,blocked

@@ -1,0 +1,284 @@
+id,name,platform_count,program_count,platform_ids,ownership_as_reported
+O-001,1littlecoder,1,0,P-234,1littlecoder
+O-002,2U,1,1,P-132,2U (private since 2024-09-13); 2U: Named 2026 Online Education Solution Provider of the Year (EdTech Breakthrough).
+O-003,360Learning SA,1,0,P-087,360Learning SA
+O-004,3Blue1Brown,1,0,P-235,3Blue1Brown
+O-005,Absorb Software,2,0,P-043;P-088,"Absorb Software; Welsh, Carson, Anderson & Stowe (WCAS) portfolio"
+O-006,Accenture,3,0,P-044;P-170;P-210,Accenture; Accenture (LearnVantage); Accenture (part of Accenture LearnVantage)
+O-007,Adobe,1,0,P-293,Adobe
+O-008,AI Beavers,1,0,P-089,
+O-009,AI Breakfast,1,0,P-236,
+O-010,AI Enablement Academy,1,0,P-090,
+O-011,AI Explained,1,0,P-238,AI Explained
+O-012,AI Foundations,1,0,P-239,AI Foundations
+O-013,AI Singapore,1,2,P-181,AI Singapore (NRF); AI Singapore / IMDA TeSA
+O-014,AI Tool Report,1,0,P-240,
+O-015,Airtribe,1,0,P-209,Airtribe
+O-016,Alex Finn,1,0,P-241,Alex Finn
+O-017,Alphabet,0,2,,
+O-018,Alphabet (Google),7,3,P-004;P-005;P-017;P-018;P-019;P-198;P-298,Google; Google DeepMind; Google Research / Google Labs
+O-019,Altern,1,0,P-073,Altern (alternbits)
+O-020,Amazon,2,2,P-091;P-294,AWS + Digital Industry Singapore (EDB); Amazon Web Services
+O-021,Analytics Vidhya,1,0,P-119,Analytics Vidhya
+O-022,Anthropic,2,4,P-001;P-012,Anthropic
+O-023,Anysphere,1,0,P-003,Anysphere (Cursor)
+O-024,Arcade,1,1,P-092,
+O-025,Arist,1,0,P-093,Arist; Arist Inc.
+O-026,Arizona State University,1,0,P-120,Arizona State University
+O-027,Artificial Intelligence Weekly,1,0,P-243,
+O-028,ASEAN Foundation,1,2,P-222,ASEAN Foundation (Google.org USD 5M grant)
+O-029,AssemblyAI,1,0,P-245,AssemblyAI
+O-030,avinash201199,1,0,P-080,avinash201199 (community)
+O-031,BetterUp,1,0,P-010,
+O-032,Binar,1,0,P-211,Binar
+O-033,Board Infinity,1,0,P-121,Board Infinity
+O-034,Boot.dev,1,0,P-195,Boot.dev
+O-035,Boston Consulting Group,1,0,P-045,Boston Consulting Group
+O-036,BrainStation,1,0,P-122,
+O-037,Brilliant,1,0,P-196,Brilliant Worldwide
+O-038,BSI Digital Learning,1,0,P-123,
+O-039,Caltech,1,0,P-124,Caltech
+O-040,CampusX,1,0,P-248,CampusX
+O-041,Capgemini,1,0,P-046,Capgemini
+O-042,Career Karma,1,0,P-075,
+O-043,Carnegie Mellon University,1,0,P-125,Carnegie Mellon University
+O-044,CBSE,1,0,P-202,CBSE / Ministry of Education (developed with IIT Madras)
+O-045,Celonis,1,0,P-303,Make (Celonis)
+O-046,Chip Huyen,1,2,P-249,Chip Huyen / O'Reilly
+O-047,Cisco,1,0,P-295,Cisco
+O-048,Citigroup,1,0,P-094,Citigroup
+O-049,Class Central,1,0,P-076,Class Central
+O-050,codebasics,1,0,P-250,codebasics
+O-051,CodeSignal,1,0,P-013,CodeSignal
+O-052,CodeWithHarry,1,0,P-251,CodeWithHarry
+O-053,Cognizant,1,0,P-047,Cognizant
+O-054,Cohere,1,0,P-002,Cohere
+O-055,Cole Medin,1,0,P-252,Cole Medin
+O-056,Cornerstone OnDemand,1,1,P-095,Cornerstone OnDemand (Clearlake-owned; ownership not verified this session)
+O-057,Correlation One,1,0,P-213,
+O-058,Course Report,1,0,P-077,
+O-059,"Coursera, Inc.",2,3,P-127;P-171,"Coursera, Inc. (NYSE: COUR); Coursera Inc. (NYSE: COUR); Coursera, Inc. (since 2026-05-11); Coursera Inc. (since 2026-05-11)"
+O-060,CrewAI Discord,1,0,P-030,
+O-061,d2l.ai,1,0,P-254,"d2l.ai (Zhang, Lipton, Li, Smola)"
+O-062,DAIR.AI,1,0,P-273,DAIR.AI
+O-063,Data Elixir,1,0,P-253,
+O-064,Data Science Dojo,1,0,P-031,Data Science Dojo
+O-065,Data Society,1,0,P-096,
+O-066,Databricks,1,0,P-296,Databricks
+O-067,DataCamp,1,1,P-128,DataCamp Inc.
+O-068,Dataiku,1,0,P-297,Dataiku
+O-069,Dataquest,1,0,P-129,
+O-070,DataTalks.Club,1,2,P-032,DataTalks.Club
+O-071,Decoding ML,1,0,P-264,Decoding ML (Paul Iusztin et al.)
+O-072,DeepLearning.AI,1,0,P-130,DeepLearning.AI (Andrew Ng); DeepLearning.AI
+O-073,Degreed Inc.,1,0,P-097,Degreed Inc.
+O-074,Deloitte,1,0,P-048,Deloitte
+O-075,Devonshire Investors,1,0,P-108,Devonshire Investors
+O-076,Dicoding,1,0,P-228,Dicoding
+O-077,DigitalDefynd,1,0,P-078,
+O-078,Disco,1,0,P-033,Disco
+O-079,Docebo Inc.,1,0,P-098,Docebo Inc. (Nasdaq/TSX: DCBO)
+O-080,Duke University,1,0,P-131,Duke University
+O-081,Duolingo,1,0,P-014,Duolingo
+O-082,Dwarkesh Patel,1,0,P-255,Dwarkesh Patel
+O-083,Edstellar,1,0,P-214,
+O-084,Eightfold AI,1,0,P-058,
+O-085,Electives,1,0,P-215,
+O-086,Emeritus,1,1,P-133,
+O-087,Emtrain,1,0,P-099,
+O-088,ETS,1,0,P-059,ETS
+O-089,Eureka Labs (Andrej Karpathy),1,4,P-242,Eureka Labs
+O-090,Exercism,1,0,P-034,Exercism
+O-091,fast.ai,1,2,P-134,
+O-092,Fatih Kadir Akin,1,0,P-083,Fatih Kadir Akin
+O-093,Feedspot,1,0,P-079,Feedspot
+O-094,Final Round AI,1,0,P-015,Final Round AI
+O-095,Fireship,1,0,P-256,Fireship
+O-096,Flatiron School,1,0,P-135,
+O-097,FPT Corporation,1,0,P-229,FPT Corporation
+O-098,FreeAcademy.ai,1,0,P-016,
+O-099,freeCodeCamp.org,1,0,P-136,freeCodeCamp (nonprofit); freeCodeCamp.org (nonprofit)
+O-100,Fullstack Academy,1,0,P-137,
+O-101,GenAICoursePath,1,0,P-081,
+O-102,General Assembly,1,0,P-138,
+O-103,Georgetown University,1,0,P-139,Georgetown University
+O-104,Georgia Institute of Technology,1,0,P-140,Georgia Institute of Technology
+O-105,Gloat,1,0,P-060,
+O-106,Go1,2,0,P-100;P-247,Go1 Pty Ltd; Go1
+O-107,Goku Mohandas,1,0,P-267,Goku Mohandas
+O-108,GoodHabitz,1,0,P-101,
+O-109,Goodwill,1,0,P-223,Goodwill
+O-110,Govt of India,1,0,P-186,Govt of India (DoPT / Karmayogi Bharat)
+O-111,Govt of India — MeitY / IndiaAI Mission,1,2,P-185,NASSCOM / MeitY
+O-112,Govt of India — MSDE,1,1,P-191,Ministry of Skill Development & Entrepreneurship (MSDE)
+O-113,Govt of Indonesia — Komdigi,1,1,P-184,"Komdigi (Ministry of Communication & Digital Affairs), Indonesia"
+O-114,Govt of Kerala,1,0,P-204,Govt of Kerala
+O-115,Govt of Malaysia,1,0,P-183,Govt of Malaysia (MOSTI / MyDIGITAL / Intel)
+O-116,Govt of Singapore — SkillsFuture Singapore,1,1,P-192,Govt of Singapore (MOE)
+O-117,Govt of Tamil Nadu SCERT,1,0,P-207,Govt of Tamil Nadu SCERT
+O-118,Govt of Thailand,1,0,P-182,Govt of Thailand (MHESI/NECTEC)
+O-119,Great Learning,1,1,P-141,
+O-120,Hannibal046,1,0,P-074,Hannibal046 (community)
+O-121,Harvard University,2,1,P-142;P-143,Harvard University
+O-122,HCL Group,1,0,P-230,HCL Group
+O-123,Heicoders,1,0,P-216,Heicoders
+O-124,Helios Salinger,1,0,P-217,
+O-125,How I AI,1,0,P-257,How I AI
+O-126,HubSpot,1,0,P-299,HubSpot
+O-127,Hugging Face,1,2,P-197,Hugging Face
+O-128,IAPP,1,0,P-226,IAPP
+O-129,IBM,2,0,P-300;P-301,IBM
+O-130,IIT Madras,1,0,P-193,IIT Madras / Ministry of Education SWAYAM Plus
+O-131,IITs,1,0,P-155,IITs / IISc / Ministry of Education
+O-132,IMDA Singapore,1,0,P-187,IMDA Singapore
+O-133,Imperial College London,1,0,P-144,Imperial College London
+O-134,Import AI,1,0,P-258,
+O-135,Indiana University,1,0,P-148,Indiana University
+O-136,Info Edge,1,0,P-212,Info Edge
+O-137,Infosys,1,0,P-049,Infosys
+O-138,Intellezy,1,0,P-102,
+O-139,Intellipaat,1,0,P-218,Intellipaat
+O-140,Interview Kickstart,1,0,P-146,
+O-141,Iternal,1,0,P-103,
+O-142,Jay Alammar & Maarten Grootendorst,1,2,P-260,Jay Alammar & Maarten Grootendorst / O'Reilly; Alammar & Grootendorst / O'Reilly
+O-143,Jeff Su,1,0,P-261,Jeff Su
+O-144,Johns Hopkins University,1,0,P-147,Johns Hopkins University
+O-145,Khan Academy,1,0,P-203,Khan Academy
+O-146,KKR,1,0,P-145,KKR
+O-147,KPMG,1,0,P-050,KPMG
+O-148,Krish Naik,1,0,P-262,Krish Naik
+O-149,Kubicle,1,0,P-104,
+O-150,labml.ai,1,0,P-263,labml.ai
+O-151,LangChain,1,0,P-006,LangChain
+O-152,Larridin,1,0,P-061,
+O-153,Le Wagon,1,0,P-149,
+O-154,Lead with AI,1,0,P-105,
+O-155,LearnUpon,1,1,P-106,
+O-156,LLMs Research,1,0,P-266,
+O-157,Malaysia Digital Economy Corporation,1,0,P-188,Malaysia Digital Economy Corporation
+O-158,Masai,1,0,P-219,Masai
+O-159,Matt Wolfe,1,0,P-268,Matt Wolfe
+O-160,Matthew Berman,1,0,P-269,Matthew Berman
+O-161,Maven,1,0,P-151,
+O-162,Maxime Labonne,1,0,P-265,Maxime Labonne
+O-163,McKinsey & Company,1,0,P-053,McKinsey & Company
+O-164,MeltingSpot,1,0,P-068,
+O-165,Meta,2,0,P-007;P-082,Meta; Meta AI (historical)
+O-166,Metis,1,0,P-152,
+O-167,Microsoft,5,13,P-062;P-150;P-270;P-304;P-305,Microsoft; Microsoft (LinkedIn); LinkedIn (Microsoft)
+O-168,Mimo,1,0,P-199,Mimo (getmimo)
+O-169,Mindsmith,1,0,P-107,Mindsmith
+O-170,Ministry of Digital Malaysia,1,0,P-190,Ministry of Digital Malaysia
+O-171,Mistral AI,1,0,P-008,Mistral AI
+O-172,MIT,2,0,P-153;P-271,MIT
+O-173,Multiverse,1,0,P-029,Multiverse Group
+O-174,n8n,1,0,P-306,n8n
+O-175,National AI Office Malaysia,1,0,P-180,National AI Office Malaysia
+O-176,National Association of Colleges and Employers,1,0,P-227,National Association of Colleges and Employers
+O-177,Nectir,1,0,P-154,Nectir
+O-178,Nir Diamant,1,4,P-272,Nir Diamant / DiamantAI
+O-179,NTT DATA Group,1,0,P-051,NTT DATA Group
+O-180,Nucamp,1,0,P-156,
+O-181,NVIDIA,2,0,P-307;P-308,NVIDIA
+O-182,O'Reilly,1,0,P-157,
+O-183,Oboe,1,0,P-020,Oboe (Anchor co-founders)
+O-184,ODSC,1,0,P-037,ODSC
+O-185,OpenAI,3,3,P-009;P-011;P-063,OpenAI
+O-186,Oracle,1,0,P-309,Oracle
+O-187,patchy631,1,0,P-237,patchy631 (Daily Dose of DS)
+O-188,Pearson,2,0,P-057;P-064,Pearson; Pearson plc
+O-189,Pendo,1,0,P-069,
+O-190,PhysicsWallah,3,0,P-231;P-232;P-259,Physics Wallah; PhysicsWallah; iNeuron (PhysicsWallah)
+O-191,Pluralsight,1,1,P-158,
+O-192,Praktika,1,0,P-021,Praktika
+O-193,Pratham,0,1,,
+O-194,PwC,1,0,P-052,PwC
+O-195,r/AI_Agents,1,0,P-039,
+O-196,r/learnmachinelearning,1,0,P-040,
+O-197,r/LocalLLaMA,1,0,P-041,
+O-198,r/MachineLearning,1,0,P-042,
+O-199,Reforge,1,0,P-159,
+O-200,Reliance Jio,1,0,P-302,Reliance Jio
+O-201,Replit,1,0,P-022,Replit
+O-202,Research.com,0,0,,
+O-203,roadmap.sh,1,0,P-085,roadmap.sh (Kamran Ahmed)
+O-204,Russell & Norvig,1,0,P-244,Russell & Norvig
+O-205,Salesforce,1,0,P-310,Salesforce
+O-206,Sam Witteveen,1,0,P-274,Sam Witteveen
+O-207,SAP,2,0,P-071;P-311,SAP SE; SAP
+O-208,Scaler,1,1,P-160,InterviewBit / Scaler
+O-209,Scrimba,1,0,P-200,Scrimba
+O-210,Sebastian Raschka,1,3,P-275,Sebastian Raschka / Manning
+O-211,Second Nature,1,0,P-023,
+O-212,Section,1,0,P-161,
+O-213,sentdex,1,0,P-276,sentdex (Harrison Kinsley)
+O-214,ServiceNow,1,0,P-312,ServiceNow
+O-215,Shubham Saboo,1,0,P-246,Shubham Saboo
+O-216,Siam Commercial Bank,1,0,P-110,Siam Commercial Bank (SCBX)
+O-217,Simplilearn,1,1,P-162,Blackstone (not verified this session); Simplilearn (Blackstone)
+O-218,Siraj Raval,1,0,P-277,Siraj Raval
+O-219,Skill Leap AI,1,0,P-278,Skill Leap AI
+O-220,Skillsoft,2,1,P-111;P-126,Skillsoft Corp. (NYSE: SKIL); Skillsoft Corp (NYSE: SKIL); Skillsoft (since 2022-04-05)
+O-221,Slalom,1,0,P-054,
+O-222,SmartWinnr,1,0,P-112,SmartWinnr
+O-223,Snowflake,1,0,P-313,Snowflake
+O-224,Sololearn,1,0,P-201,Sololearn
+O-225,Southern Methodist University,1,0,P-163,Southern Methodist University
+O-226,Speak,1,0,P-024,Speak
+O-227,Springboard,1,0,P-164,
+O-228,Squirrel Ai Learning,1,0,P-025,Squirrel Ai Learning
+O-229,Stanford University,2,0,P-026;P-165,Stanford EduNLP Lab / National Student Support Accelerator; Stanford University
+O-230,StatQuest,1,0,P-279,StatQuest
+O-231,STEMpedia,1,0,P-205,STEMpedia (Agilo Research)
+O-232,Superhuman AI,1,0,P-280,
+O-233,SwitchUp,1,0,P-086,
+O-234,Synthesis,1,0,P-206,Synthesis
+O-235,Tata Consultancy Services,1,0,P-055,Tata Consultancy Services
+O-236,Techpresso,1,0,P-281,
+O-237,TechWolf,1,0,P-065,
+O-238,The AI Advantage,1,0,P-282,The AI Advantage (Igor Pogany)
+O-239,The ML Engineer Newsletter,1,0,P-283,
+O-240,The Neuron,1,0,P-284,
+O-241,There's an AI Newsletter,1,0,P-285,
+O-242,Thrive,2,0,P-035;P-113,Thrive
+O-243,Tina Huang,1,0,P-286,Tina Huang
+O-244,"Training Industry, Inc.",1,0,P-066,"Training Industry, Inc."
+O-245,TripleTen,1,0,P-166,
+O-246,Turing College,1,0,P-167,
+O-247,Turing Post,1,0,P-287,
+O-248,Two Minute Papers,1,0,P-288,Two Minute Papers
+O-249,UC Berkeley Haas,1,0,P-168,UC Berkeley Haas
+O-250,UC Santa Barbara,1,0,P-169,UC Santa Barbara
+O-251,Umar Jamil,1,0,P-289,Umar Jamil
+O-252,University of Illinois Urbana-Champaign,1,0,P-172,University of Illinois Urbana-Champaign
+O-253,University of New Mexico,1,0,P-174,University of New Mexico
+O-254,University of Pennsylvania,1,0,P-177,University of Pennsylvania
+O-255,University of San Diego,1,0,P-173,University of San Diego
+O-256,University of Texas at Austin,1,0,P-176,University of Texas at Austin
+O-257,upGrad Education,1,0,P-233,"upGrad (2026, reported)"
+O-258,Uplimit,1,0,P-114,Uplimit; Uplimit Inc.
+O-259,Uppit AI,1,0,P-036,Uppit AI
+O-260,Uptale,1,0,P-115,Uptale
+O-261,US DOL ETA,1,0,P-194,US DOL ETA
+O-262,US Government,1,0,P-189,US Government
+O-263,Userlane,1,0,P-070,
+O-264,Vertical Institute,1,0,P-220,Vertical Institute
+O-265,Vibe Coding Academy,1,0,P-027,
+O-266,Virti,1,0,P-116,Virti
+O-267,VirtualSpeech,1,0,P-117,VirtualSpeech
+O-268,Wadhwani Foundation,1,0,P-224,Wadhwani Foundation
+O-269,Weights & Biases,1,0,P-314,Weights & Biases
+O-270,Welch Labs,1,0,P-290,Welch Labs
+O-271,Wes Roth,1,0,P-291,Wes Roth
+O-272,Westminster Insight,1,0,P-221,
+O-273,Whatfix,1,0,P-072,
+O-274,Wild Zebra,1,0,P-208,Wild Zebra
+O-275,Wipro,1,0,P-056,Wipro
+O-276,Woolf,1,0,P-178,
+O-277,Workday,2,0,P-109;P-118,Workday
+O-278,Workera,1,0,P-067,
+O-279,WorldQuant Foundation,1,0,P-225,WorldQuant Foundation (not-for-profit)
+O-280,WRITER,1,0,P-315,
+O-281,Yannic Kilcher,1,0,P-292,Yannic Kilcher
+O-282,Yoodli,1,0,P-028,Yoodli
+O-283,Zero To Mastery,1,0,P-179,

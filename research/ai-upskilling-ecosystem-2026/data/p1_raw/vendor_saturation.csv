@@ -1,0 +1,8 @@
+category,batches_run,last3_batches_new_counts,saturated(Y/N),note
+Vendor academy (hyperscaler/cloud/data/enterprise SaaS),6,"8;6;6",N,"Still yielding 6+ new per batch when session WebSearch budget (200 calls, shared) ran out. Unsearched seeds: Workday, Canva, Notion, Intel, AMD, Apple, Zapier Academy, GitHub Skills, Pinecone, LlamaIndex, CrewAI."
+AI-lab developer program,3,"5;5;6",N,"OpenAI/Anthropic/DeepMind/Meta/Mistral/Cohere confirmed; Perplexity found only third-party courses (dead end)."
+Credential/skills-benchmarking,1,"0;0;0",N,"Batch 8 not executed (budget exhausted); WebFetch to iapp.org/isaca.org/comptia.org/pmi.org egress-blocked. Only Credly and ETS seen incidentally. Needs a re-run."
+Interactive labs/sandboxes,0,"",N,"Not searched (budget). Qwiklabs now inside Google Skills labs; no other evidence gathered."
+Public-private skilling pledges,2,"6;2;0",N,"Microsoft Elevate, OpenAI 10M, AWS AI Ready, IBM 2M, ServiceNow 3M, Cisco 25M, Databricks $100M, Google.org/Goodwill captured; pass H incomplete."
+AI-coding-tool learning,2,"1;3",N,"Cursor Learn, Replit Learn, GH-300 found; Lovable no official academy seen."
+Automation/no-code academies,1,"2",N,"n8n, Make found; Zapier academy not confirmed."

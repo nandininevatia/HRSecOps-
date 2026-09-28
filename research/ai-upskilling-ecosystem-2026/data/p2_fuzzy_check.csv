@@ -1,0 +1,10 @@
+id_a,name_a,id_b,name_b,score,same_host,decision
+P-049,Infosys Springboard,P-091,AI Springboard (AWS x DISG),88,False,kept separate — reviewed
+P-049,Infosys Springboard,P-164,Springboard,100,False,kept separate — reviewed
+P-057,Credly by Pearson,P-064,Pearson (workforce skills),100,False,kept separate — reviewed
+P-091,AI Springboard (AWS x DISG),P-164,Springboard,100,False,kept separate — reviewed
+P-131,Duke Executive Education,P-142,Harvard Business School Executive Education,88,False,kept separate — reviewed
+P-131,Duke Executive Education,P-144,Imperial Executive Education,88,False,kept separate — reviewed
+P-131,Duke Executive Education,P-148,Kelley Executive Education,88,False,kept separate — reviewed
+P-131,Duke Executive Education,P-168,UC Berkeley Executive Education,88,False,kept separate — reviewed
+P-131,Duke Executive Education,P-177,Wharton Executive Education,88,False,kept separate — reviewed

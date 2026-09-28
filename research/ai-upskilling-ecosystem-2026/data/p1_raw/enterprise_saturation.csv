@@ -1,0 +1,9 @@
+category,batches_run,last3_batches_new_counts,saturated(Y/N),note
+Enterprise (LMS/LXP/skills platforms),"4 (b1,b2,b6,b7)",6;4;(b8 partial 3),N,"Rule not met; catalogue seed names mostly confirmed. EdCast, SAP SuccessFactors Learning, Eduflow not searched."
+AI-adoption/AI-literacy training companies,"3 (b1,b2,b3)",20;3;22,N,"Still yielding many low-tier vendors; Growth Tribe, Pathstream, Andela, BrainStation, Emeritus Ent., General Assembly Ent., Google AI Essentials not searched."
+Consulting academy,"2 (b4,b5)",8;6,N,"EY, IBM Consulting, Infosys Wingspan not verified."
+Digital adoption,1 (b9 part),4,N,Only one batch.
+Credential/skills-benchmarking,1 (b9 part),4,N,"Lightcast, Degreed skills not separately searched."
+Apprenticeship,1 (b2 part),1,N,"Cambridge Spark, QA, US apprenticeships not searched."
+Professional body,1 (b10) - not executed,0,N,All pass-D queries blocked by exhausted search budget; only IAPP AIGP seen indirectly.
+M&A (pass H),"2 (b6,b8)",6;9,N,Good coverage of headline deals; Q1-Q4 2025 Training Industry roundups not fetchable.
