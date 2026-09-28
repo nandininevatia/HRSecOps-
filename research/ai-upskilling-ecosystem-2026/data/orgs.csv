@@ -43,7 +43,7 @@ O-041,Capgemini,1,0,P-046,Capgemini
 O-042,Career Karma,1,0,P-075,
 O-043,Carnegie Mellon University,1,0,P-125,Carnegie Mellon University
 O-044,CBSE,1,0,P-202,CBSE / Ministry of Education (developed with IIT Madras)
-O-045,Celonis,1,0,P-303,Make (Celonis)
+O-045,Celonis,1,0,P-302,Make (Celonis)
 O-046,Chip Huyen,1,2,P-249,Chip Huyen / O'Reilly
 O-047,Cisco,1,0,P-295,Cisco
 O-048,Citigroup,1,0,P-094,Citigroup
@@ -127,7 +127,7 @@ O-125,How I AI,1,0,P-257,How I AI
 O-126,HubSpot,1,0,P-299,HubSpot
 O-127,Hugging Face,1,2,P-197,Hugging Face
 O-128,IAPP,1,0,P-226,IAPP
-O-129,IBM,2,0,P-300;P-301,IBM
+O-129,IBM,1,1,P-300,IBM
 O-130,IIT Madras,1,0,P-193,IIT Madras / Ministry of Education SWAYAM Plus
 O-131,IITs,1,0,P-155,IITs / IISc / Ministry of Education
 O-132,IMDA Singapore,1,0,P-187,IMDA Singapore
@@ -165,26 +165,26 @@ O-163,McKinsey & Company,1,0,P-053,McKinsey & Company
 O-164,MeltingSpot,1,0,P-068,
 O-165,Meta,2,0,P-007;P-082,Meta; Meta AI (historical)
 O-166,Metis,1,0,P-152,
-O-167,Microsoft,5,13,P-062;P-150;P-270;P-304;P-305,Microsoft; Microsoft (LinkedIn); LinkedIn (Microsoft)
+O-167,Microsoft,5,13,P-062;P-150;P-270;P-303;P-304,Microsoft; Microsoft (LinkedIn); LinkedIn (Microsoft)
 O-168,Mimo,1,0,P-199,Mimo (getmimo)
 O-169,Mindsmith,1,0,P-107,Mindsmith
 O-170,Ministry of Digital Malaysia,1,0,P-190,Ministry of Digital Malaysia
 O-171,Mistral AI,1,0,P-008,Mistral AI
 O-172,MIT,2,0,P-153;P-271,MIT
 O-173,Multiverse,1,0,P-029,Multiverse Group
-O-174,n8n,1,0,P-306,n8n
+O-174,n8n,1,0,P-305,n8n
 O-175,National AI Office Malaysia,1,0,P-180,National AI Office Malaysia
 O-176,National Association of Colleges and Employers,1,0,P-227,National Association of Colleges and Employers
 O-177,Nectir,1,0,P-154,Nectir
 O-178,Nir Diamant,1,4,P-272,Nir Diamant / DiamantAI
 O-179,NTT DATA Group,1,0,P-051,NTT DATA Group
 O-180,Nucamp,1,0,P-156,
-O-181,NVIDIA,2,0,P-307;P-308,NVIDIA
+O-181,NVIDIA,2,0,P-306;P-307,NVIDIA
 O-182,O'Reilly,1,0,P-157,
 O-183,Oboe,1,0,P-020,Oboe (Anchor co-founders)
 O-184,ODSC,1,0,P-037,ODSC
 O-185,OpenAI,3,3,P-009;P-011;P-063,OpenAI
-O-186,Oracle,1,0,P-309,Oracle
+O-186,Oracle,1,0,P-308,Oracle
 O-187,patchy631,1,0,P-237,patchy631 (Daily Dose of DS)
 O-188,Pearson,2,0,P-057;P-064,Pearson; Pearson plc
 O-189,Pendo,1,0,P-069,
@@ -198,21 +198,21 @@ O-196,r/learnmachinelearning,1,0,P-040,
 O-197,r/LocalLLaMA,1,0,P-041,
 O-198,r/MachineLearning,1,0,P-042,
 O-199,Reforge,1,0,P-159,
-O-200,Reliance Jio,1,0,P-302,Reliance Jio
+O-200,Reliance Jio,1,0,P-301,Reliance Jio
 O-201,Replit,1,0,P-022,Replit
 O-202,Research.com,0,0,,
 O-203,roadmap.sh,1,0,P-085,roadmap.sh (Kamran Ahmed)
 O-204,Russell & Norvig,1,0,P-244,Russell & Norvig
-O-205,Salesforce,1,0,P-310,Salesforce
+O-205,Salesforce,1,0,P-309,Salesforce
 O-206,Sam Witteveen,1,0,P-274,Sam Witteveen
-O-207,SAP,2,0,P-071;P-311,SAP SE; SAP
+O-207,SAP,2,0,P-071;P-310,SAP SE; SAP
 O-208,Scaler,1,1,P-160,InterviewBit / Scaler
 O-209,Scrimba,1,0,P-200,Scrimba
 O-210,Sebastian Raschka,1,3,P-275,Sebastian Raschka / Manning
 O-211,Second Nature,1,0,P-023,
 O-212,Section,1,0,P-161,
 O-213,sentdex,1,0,P-276,sentdex (Harrison Kinsley)
-O-214,ServiceNow,1,0,P-312,ServiceNow
+O-214,ServiceNow,1,0,P-311,ServiceNow
 O-215,Shubham Saboo,1,0,P-246,Shubham Saboo
 O-216,Siam Commercial Bank,1,0,P-110,Siam Commercial Bank (SCBX)
 O-217,Simplilearn,1,1,P-162,Blackstone (not verified this session); Simplilearn (Blackstone)
@@ -221,7 +221,7 @@ O-219,Skill Leap AI,1,0,P-278,Skill Leap AI
 O-220,Skillsoft,2,1,P-111;P-126,Skillsoft Corp. (NYSE: SKIL); Skillsoft Corp (NYSE: SKIL); Skillsoft (since 2022-04-05)
 O-221,Slalom,1,0,P-054,
 O-222,SmartWinnr,1,0,P-112,SmartWinnr
-O-223,Snowflake,1,0,P-313,Snowflake
+O-223,Snowflake,1,0,P-312,Snowflake
 O-224,Sololearn,1,0,P-201,Sololearn
 O-225,Southern Methodist University,1,0,P-163,Southern Methodist University
 O-226,Speak,1,0,P-024,Speak
@@ -267,7 +267,7 @@ O-265,Vibe Coding Academy,1,0,P-027,
 O-266,Virti,1,0,P-116,Virti
 O-267,VirtualSpeech,1,0,P-117,VirtualSpeech
 O-268,Wadhwani Foundation,1,0,P-224,Wadhwani Foundation
-O-269,Weights & Biases,1,0,P-314,Weights & Biases
+O-269,Weights & Biases,1,0,P-313,Weights & Biases
 O-270,Welch Labs,1,0,P-290,Welch Labs
 O-271,Wes Roth,1,0,P-291,Wes Roth
 O-272,Westminster Insight,1,0,P-221,
@@ -278,7 +278,7 @@ O-276,Woolf,1,0,P-178,
 O-277,Workday,2,0,P-109;P-118,Workday
 O-278,Workera,1,0,P-067,
 O-279,WorldQuant Foundation,1,0,P-225,WorldQuant Foundation (not-for-profit)
-O-280,WRITER,1,0,P-315,
+O-280,WRITER,1,0,P-314,
 O-281,Yannic Kilcher,1,0,P-292,Yannic Kilcher
 O-282,Yoodli,1,0,P-028,Yoodli
 O-283,Zero To Mastery,1,0,P-179,

@@ -14,10 +14,10 @@
 | Dataset (tab / CSV) | Rows | Contents |
 |---|---|---|
 | `p1_raw_candidates_all` | 414 | Every raw discovery record from 6 parallel slices, with IDs `R-<slice><nnn>` |
-| `providers` | **315 platforms** (`P-001…P-315`) | Deduplicated platform list: parent, category, layers, scope, provisional tier, region, seed-list flag, source raw IDs |
+| `providers` | **314 platforms** (`P-001…P-314`) | Deduplicated platform list: parent, category, layers, scope, provisional tier, region, seed-list flag, source raw IDs |
 | `orgs` | 283 parent orgs (`O-###`) | Parent organisations with platform/program counts and ownership as reported. Most orgs own a single platform. |
-| `programs` | 73 programs (`G-###`) | Programs, certifications, AI features, repos, books and skilling pledges re-levelled out of the platform list |
-| `dedup_log` | 106 actions | 32 merges, 64 re-levelled to program, 9 re-levelled to initiative, 1 re-levelled to parent org. Each has a reason. |
+| `programs` | 74 programs (`G-###`) | Programs, certifications, AI features, repos, books and skilling pledges re-levelled out of the platform list |
+| `dedup_log` | 107 actions | 32 merges, 64 re-levelled to program, 10 re-levelled to initiative, 1 re-levelled to parent org. Each has a reason. |
 | `p2_fuzzy_check` | 9 pairs | Automatic safety net over the final list (name token-set ≥ 88, or same host). All 9 pairs reviewed and kept separate. |
 | `usage_signals_p1` | 306 | One discovery signal per raw record: label, as-of date, source IDs. **All are unverified** (status column). |
 | `sources` | 370 | Source directory skeleton (`S-####`). Authority, freshness, directness and relevance scoring is deferred to P4. |
@@ -25,16 +25,16 @@
 | `search_log` | 304 log rows | Includes about 248 executed searches/fetches and about 56 logged as *not run* or *blocked* (dead ends) |
 | `saturation_log` | 45 | Saturation status per slice × category |
 
-### Scope breakdown of the 315 platforms
+### Scope breakdown of the 314 platforms
 
 | in_scope | Count | Treatment |
 |---|---|---|
-| yes | 228 | Core analysis |
+| yes | 227 | Core analysis |
 | legacy-canonical | 13 | Core analysis, flagged (e.g. fast.ai, MIT OCW, 3Blue1Brown NN series, d2l.ai, StatQuest) |
 | adjacent | 70 | Kept out of the core (directories, general coding apps, adjacent enterprise tools, product-access initiatives) |
 | no | 4 | Kept for traceability only (Unacademy, kept for M&A; Instructure; Blinkist; Exercism) |
 
-**Core (yes + legacy-canonical) = 241 platforms.** Brief target: 150–300 raw candidates. Met.
+**Core (yes + legacy-canonical) = 240 platforms.** Brief target: 150–300 raw candidates. Met.
 
 ### Core platforms by category
 
@@ -43,18 +43,18 @@
 | Self-directed (YouTube, repos, books, newsletters, podcasts) | 56 | Live/high-touch | 9 |
 | Formal/structured | 49 | Interactive | 6 |
 | Enterprise (LMS/LXP, AI-adoption vendors) | 22 | K-12/teacher | 6 |
-| Vendor academy | 22 | Digital adoption | 5 |
+| Vendor academy | 21 | Digital adoption | 5 |
 | Consulting academy | 12 | Regional-language edtech | 5 |
 | Government/public | 11 | Directory/curation | 4 |
 | AI-lab developer program | 9 | Credential/skills-benchmarking | 3 |
 | AI-native learning | 9 | Nonprofit/NGO | 2 |
 | Community | 9 | Apprenticeship · Professional body | 1 · 1 |
 
-A further 9 government/pledge **initiatives** sit in `programs`, because they are not platforms. Examples: Microsoft Elevate, AWS AI Ready, IndiaAI FutureSkills, ADVANTA(I)GE India, elevAIte Indonesia.
+A further 10 government/pledge **initiatives** sit in `programs`, because they are not platforms. Examples: Microsoft Elevate, AWS AI Ready, IndiaAI FutureSkills, ADVANTA(I)GE India, elevAIte Indonesia, IBM India.
 
 ### Core platforms by region (HQ or programme region)
 
-North America 94 · Global/unspecified 77 (mostly creators and repos with no stated HQ) · India 31 · Europe 21 · Southeast Asia 13 · East Asia 2 · Asia-Pacific (other) 2 · Middle East 1 · **Africa 0 · Latin America 0**.
+North America 94 · Global/unspecified 77 (mostly creators and repos with no stated HQ) · India 30 · Europe 21 · Southeast Asia 13 · East Asia 2 · Asia-Pacific (other) 2 · Middle East 1 · **Africa 0 · Latin America 0**.
 
 This regional skew reflects where searching was possible. It is **not** a finding about where supply exists (see §7).
 
@@ -69,7 +69,7 @@ This regional skew reflects where searching was possible. It is **not** a findin
 | P1 saturation reached per category | ❌ **Not reached in any category** | 45 slice × category rows, all `N`. Some categories were still returning 20+ new entities per batch when stopped. |
 | ≥ 30 significant non-seed providers, incl. non-US / non-English | ⚠️ **Partly met** | 185 core platforms are not on the brief's seed list. 40 of these are *provisionally* major or distinctive, but only **11 are outside North America / global creators**, and very few are non-English (see §4). |
 | P2 dedup with O-/P-/G- IDs and parent mapping | ✅ | See `providers`, `orgs`, `programs` |
-| Dedup log complete | ✅ | 106 actions with reasons; fuzzy check reviewed |
+| Dedup log complete | ✅ | 107 actions with reasons; fuzzy check reviewed |
 | Hand-off for Run 2 | ✅ | §8 |
 
 ---
@@ -81,7 +81,7 @@ This regional skew reflects where searching was possible. It is **not** a findin
 | Unit = Platform/Product; commercial variants merged | Coursera for Business → Coursera. Udemy Business → Udemy. LinkedIn Learning Hub → LinkedIn Learning. DataCamp for Business → DataCamp. |
 | Separate brands kept where the learner experience differs, linked to a common parent | Coursera and Udemy stay 2 platforms under Coursera, Inc. (combination completed 2026-05-11; see §5). Microsoft Learn, LinkedIn Learning and the Microsoft GitHub curricula are 3 platforms under Microsoft. |
 | Programs are never counted as platforms | 64 re-levelled: certifications (AI-103, AWS GenAI Developer Pro, GH-300, OpenAI Certifications), AI features (Coursera Coach, Project Helix, Udemy AI Role Play, DataCamp Optima, CS50 Duck), courses (HF Agents/LLM course), regional instances (OpenAI Academy India, Hour of AI Thailand) |
-| Pledges / public-private initiatives | 9 initiatives are held as programs owned by an org, with no platform, because they run across several platforms |
+| Pledges / public-private initiatives | 10 initiatives are held as programs owned by an org, with no platform, because they run across several platforms |
 | Creator = one entity across channels | Karpathy (YouTube + nanoGPT, nanochat, micrograd, LLM101n). Raschka (book + 2 repos). Chip Huyen (book + repo). Alammar & Grootendorst. Nir Diamant (3 repos + newsletter). DataTalks.Club (2 Zoomcamps). DeepLearning.AI YouTube merged into DeepLearning.AI. freeCodeCamp YouTube merged into freeCodeCamp. |
 | Rebrands use the current name, with the old name kept as an alias | Google Cloud Skills Boost → **Google Skills** (renamed Oct 2025 per vendor slice; verify). anthropic-cookbook → Claude Cookbooks. |
 | Creator vs. distributor (`hosted_on`) | Google AI Essentials (creator Google; hosted on Coursera and grow.google). Microsoft CxO Edge (hosted on edX). IIT Roorkee (via Scaler) and IIT Guwahati (via Simplilearn) set as `academic_partner`. AIM programmes delivered by Emeritus. |

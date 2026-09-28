@@ -17,3 +17,7 @@ Staged study of the global AI upskilling / AI learning ecosystem (trend window J
 - `scripts/p2_entity_resolution.py`: reproducible P2 build (`pip install rapidfuzz openpyxl`)
 
 **Evidence caution.** Every figure in `usage_signals_p1` is a discovery signal. None are verified findings yet. Most were captured from search-result snippets.
+
+## Shared copies
+- Run 1 report (Claude Doc): https://claude.ai/code/artifact/6faaa290-b2db-4638-9a8d-ae80c7d91906
+- Provider directory (Google Sheet): https://docs.google.com/spreadsheets/d/1ckjU6ezPXKLf5865XM1O6xXR-oYf90Vx-ekPIl5Ol-Y/edit

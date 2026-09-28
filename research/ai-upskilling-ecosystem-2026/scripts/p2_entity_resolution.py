@@ -53,6 +53,7 @@ DECISIONS = {
     "ent048": (M, "ven004", "Microsoft Elevate found by two slices"),
     "reg054": (G, "ven004", "regional instance", "Hour of AI Thailand is a country instance of Microsoft Elevate"),
     "reg012": (I, "Microsoft", "ADVANTA(I)GE India is a national skilling initiative, not a platform"),
+    "reg014": (I, "IBM", "IBM India commitment (5M youth by 2030) is a skilling pledge, not a platform"),
     "reg047": (I, "Microsoft", "elevAIte Indonesia is a Microsoft-led national skilling initiative with Komdigi"),
     "cre004": (G, "SYN-msgh", "open curriculum (repo)", "Microsoft GitHub curriculum repo"),
     "cre005": (G, "SYN-msgh", "open curriculum (repo)", "Microsoft GitHub curriculum repo"),

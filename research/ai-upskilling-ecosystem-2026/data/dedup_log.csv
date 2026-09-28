@@ -58,7 +58,7 @@ P-033,R-ent019,ent019,Disco,merge,Disco found by two slices,P2 manual review 202
 P-128,R-ent020,ent020,DataCamp for Business,merge,DataCamp for Business is the enterprise product of DataCamp,P2 manual review 2026-09-28
 P-161,R-ent021,ent021,Section,merge,Section found by two slices,P2 manual review 2026-09-28
 P-029,R-ent022,ent022,Multiverse,merge,Multiverse found by two slices,P2 manual review 2026-09-28
-G-071,R-ent048,ent048,Microsoft Elevate,merge,Microsoft Elevate found by two slices,P2 manual review 2026-09-28
+G-072,R-ent048,ent048,Microsoft Elevate,merge,Microsoft Elevate found by two slices,P2 manual review 2026-09-28
 P-170,R-ent055,ent055,Udacity,merge,Udacity found by two slices,P2 manual review 2026-09-28
 P-106,R-ent071,ent071,Courseau,re-levelled to program,Courseau acquired into LearnUpon,P2 manual review 2026-09-28
 P-092,R-ent073,ent073,Upduo,re-levelled to program,Upduo acquired into Arcade,P2 manual review 2026-09-28
@@ -77,6 +77,7 @@ P-185,R-reg003,reg003,YUVA AI for ALL,re-levelled to program,YUVA AI for ALL is 
 P-191,R-reg005,reg005,SOAR - Skilling for AI Readiness,re-levelled to program,SOAR is delivered via Skill India Digital Hub,P2 manual review 2026-09-28
 O-167,R-reg012,reg012,Microsoft ADVANTA(I)GE India,re-levelled to initiative,"ADVANTA(I)GE India is a national skilling initiative, not a platform",P2 manual review 2026-09-28
 G-067,R-reg013,reg013,AWS AI Ready (India),merge,India instance of the same AWS AI Ready pledge,P2 manual review 2026-09-28
+O-129,R-reg014,reg014,IBM India AI skilling commitment,re-levelled to initiative,"IBM India commitment (5M youth by 2030) is a skilling pledge, not a platform",P2 manual review 2026-09-28
 P-009,R-reg015,reg015,OpenAI Academy India,re-levelled to program,OpenAI Academy India is a country instance of OpenAI Academy,P2 manual review 2026-09-28
 O-018,R-reg016,reg016,Google AI Plus free for Indian students,re-levelled to initiative,Free Google AI Plus for Indian students is a product-access initiative (adjacent),P2 manual review 2026-09-28
 P-141,R-reg021,reg021,Great Learning Academy,re-levelled to program,Great Learning Academy is the free tier of Great Learning,P2 manual review 2026-09-28
@@ -90,10 +91,10 @@ P-184,R-reg045,reg045,AI Talent Factory (AITF),re-levelled to program,AI Talent 
 O-167,R-reg047,reg047,elevAIte Indonesia,re-levelled to initiative,elevAIte Indonesia is a Microsoft-led national skilling initiative with Komdigi,P2 manual review 2026-09-28
 P-222,R-reg051,reg051,DepEd AI Literacy Program / AI Ready ASEAN Philippines,re-levelled to program,Philippines instance of AI Ready ASEAN with DepEd,P2 manual review 2026-09-28
 P-222,R-reg052,reg052,Break The Fake Movement,re-levelled to program,Break The Fake Movement is a local implementing partner of AI Ready ASEAN,P2 manual review 2026-09-28
-G-071,R-reg054,reg054,Microsoft Elevate - Hour of AI Thailand,re-levelled to program,Hour of AI Thailand is a country instance of Microsoft Elevate,P2 manual review 2026-09-28
+G-072,R-reg054,reg054,Microsoft Elevate - Hour of AI Thailand,re-levelled to program,Hour of AI Thailand is a country instance of Microsoft Elevate,P2 manual review 2026-09-28
 O-018,R-reg056,reg056,Google Gemini student learning tool - Kenya,re-levelled to initiative,Gemini learning tool rollout in Kenya is a product-access initiative (adjacent),P2 manual review 2026-09-28
-P-305,R-ven002,ven002,Azure AI App and Agent Developer Associate (AI-103),re-levelled to program,Azure AI certification is a program on Microsoft Learn,P2 manual review 2026-09-28
-P-305,R-ven003,ven003,Microsoft AI Skills Fest,re-levelled to program,AI Skills Fest is a Microsoft Learn event program,P2 manual review 2026-09-28
+P-304,R-ven002,ven002,Azure AI App and Agent Developer Associate (AI-103),re-levelled to program,Azure AI certification is a program on Microsoft Learn,P2 manual review 2026-09-28
+P-304,R-ven003,ven003,Microsoft AI Skills Fest,re-levelled to program,AI Skills Fest is a Microsoft Learn event program,P2 manual review 2026-09-28
 O-167,R-ven004,ven004,Microsoft Elevate,re-levelled to initiative,Microsoft Elevate is a skilling commitment delivered across several Microsoft platforms,P2 manual review 2026-09-28
 P-150,R-ven005,ven005,LinkedIn Learning,merge,LinkedIn Learning found by two slices,P2 manual review 2026-09-28
 O-020,R-ven007,ven007,AWS AI Ready,re-levelled to initiative,AWS AI Ready is a skilling pledge delivered via Skill Builder and partners,P2 manual review 2026-09-28
@@ -102,6 +103,6 @@ P-298,R-ven010,ven010,Google Cloud Skills Boost,merge,"Google Cloud Skills Boost
 P-298,R-ven011,ven011,Google AI Essentials,re-levelled to program,"Google AI Essentials; creator Google, also hosted on Coursera",P2 manual review 2026-09-28
 O-018,R-ven012,ven012,Google.org AI Opportunity Fund,re-levelled to initiative,Google.org AI Opportunity Fund is a philanthropic funding initiative,P2 manual review 2026-09-28
 P-009,R-ven016,ven016,OpenAI Certifications,re-levelled to program,OpenAI Certifications are offered via OpenAI Academy,P2 manual review 2026-09-28
-P-305,R-ven035,ven035,GitHub Copilot Certification (GH-300),re-levelled to program,GH-300 exam is delivered via Microsoft Learn (creator GitHub),P2 manual review 2026-09-28
+P-304,R-ven035,ven035,GitHub Copilot Certification (GH-300),re-levelled to program,GH-300 exam is delivered via Microsoft Learn (creator GitHub),P2 manual review 2026-09-28
 P-130,R-ven039,ven039,DeepLearning.AI,merge,DeepLearning.AI found by two slices,P2 manual review 2026-09-28
 P-076,R-ven049,ven049,Class Central,merge,Class Central found by three slices,P2 manual review 2026-09-28
